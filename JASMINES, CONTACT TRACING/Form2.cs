@@ -30,6 +30,7 @@ namespace JASMINES__CONTACT_TRACING
             doc.WriteLine("Last Name: " + LastNButt.Text);
             doc.WriteLine("Age: " + AgeButt.Text);
             doc.WriteLine("Gender: " + GendrButt.Text);
+            doc.WriteLine("Address: " + AdressButt.Text);
         }
     }
 }
