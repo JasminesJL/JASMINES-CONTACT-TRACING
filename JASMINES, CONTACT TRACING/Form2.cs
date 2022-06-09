@@ -57,5 +57,10 @@ namespace JASMINES__CONTACT_TRACING
             TempButt.Text = "";
             EmailAButt.Text = "";
         }
+
+        private void BackButt_Click(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

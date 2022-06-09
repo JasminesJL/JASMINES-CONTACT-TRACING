@@ -58,6 +58,7 @@
             this.EmailAddlabel = new System.Windows.Forms.Label();
             this.EmailAButt = new System.Windows.Forms.TextBox();
             this.SubMbutt = new System.Windows.Forms.Button();
+            this.BackButt = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstNameLabel
@@ -341,12 +342,25 @@
             this.SubMbutt.UseVisualStyleBackColor = false;
             this.SubMbutt.Click += new System.EventHandler(this.SubMbutt_Click);
             // 
+            // BackButt
+            // 
+            this.BackButt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BackButt.Font = new System.Drawing.Font("Dungeon", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.BackButt.Location = new System.Drawing.Point(11, 565);
+            this.BackButt.Name = "BackButt";
+            this.BackButt.Size = new System.Drawing.Size(87, 45);
+            this.BackButt.TabIndex = 29;
+            this.BackButt.Text = "Back";
+            this.BackButt.UseVisualStyleBackColor = true;
+            this.BackButt.Click += new System.EventHandler(this.BackButt_Click);
+            // 
             // Filloutform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1204, 622);
+            this.Controls.Add(this.BackButt);
             this.Controls.Add(this.SubMbutt);
             this.Controls.Add(this.EmailAButt);
             this.Controls.Add(this.EmailAddlabel);
@@ -415,5 +429,6 @@
         private Label EmailAddlabel;
         private TextBox EmailAButt;
         private Button SubMbutt;
+        private Button BackButt;
     }
 }
