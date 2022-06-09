@@ -37,6 +37,7 @@ namespace JASMINES__CONTACT_TRACING
             doc.WriteLine("City " + CityButt.Text);
             doc.WriteLine("Barangay " + BrgyButt.Text);
             doc.WriteLine("Vaccinated ? Yes or No " + VaccYORButt.Text);
+            doc.WriteLine("Temperature " + TempButt.Text);
         }
     }
 }
