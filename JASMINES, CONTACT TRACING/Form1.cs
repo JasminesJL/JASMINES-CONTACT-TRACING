@@ -6,5 +6,14 @@ namespace JASMINES__CONTACT_TRACING
         {
             InitializeComponent();
         }
+
+        private void Subbutt_Click(object sender, EventArgs e)
+        {
+            var Form2 = new Filloutform();
+            Form2.Show();
+            this.Hide();
+        } 
+          
+        
     }
 }
