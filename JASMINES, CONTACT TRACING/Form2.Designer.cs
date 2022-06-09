@@ -333,7 +333,7 @@
             this.SubMbutt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SubMbutt.Font = new System.Drawing.Font("Elephant", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.SubMbutt.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.SubMbutt.Location = new System.Drawing.Point(483, 548);
+            this.SubMbutt.Location = new System.Drawing.Point(797, 548);
             this.SubMbutt.Name = "SubMbutt";
             this.SubMbutt.Size = new System.Drawing.Size(214, 45);
             this.SubMbutt.TabIndex = 28;

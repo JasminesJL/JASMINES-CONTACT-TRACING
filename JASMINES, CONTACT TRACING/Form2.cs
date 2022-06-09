@@ -33,12 +33,29 @@ namespace JASMINES__CONTACT_TRACING
             doc.WriteLine("Address: " + AdressButt.Text);
             doc.WriteLine("Birthdate: " + BirthDButt.Text);
             doc.WriteLine("Cellphone Number: " + CellPButt.Text);
-            doc.WriteLine("Provinve " + ProvButt.Text);
-            doc.WriteLine("City " + CityButt.Text);
-            doc.WriteLine("Barangay " + BrgyButt.Text);
-            doc.WriteLine("Vaccinated ? Yes or No " + VaccYORButt.Text);
-            doc.WriteLine("Temperature " + TempButt.Text);
-            doc.WriteLine("Email Adress " + EmailAButt.Text);
+            doc.WriteLine("Provinve: " + ProvButt.Text);
+            doc.WriteLine("City: " + CityButt.Text);
+            doc.WriteLine("Barangay: " + BrgyButt.Text);
+            doc.WriteLine("Vaccinated: ? Yes or No " + VaccYORButt.Text);
+            doc.WriteLine("Temperature: " + TempButt.Text);
+            doc.WriteLine("Email Adress: " + EmailAButt.Text);
+            doc.Close();
+
+            MessageBox.Show("Thankyou!, You are now Regitered. Stay Safe!", "Contract Tracing");
+            FirstNbutt.Text = "";
+            MiddleNButt.Text = "";
+            LastNButt.Text = "";
+            AgeButt.Text = "";
+            GendrButt.Text = "";
+            AdressButt.Text = "";
+            BirthDButt.Text = "";
+            CellPButt.Text = "";
+            ProvButt.Text = "";
+            CityButt.Text = "";
+            BrgyButt.Text = "";
+            VaccYORButt.Text = "";
+            TempButt.Text = "";
+            EmailAButt.Text = "";
         }
     }
 }
