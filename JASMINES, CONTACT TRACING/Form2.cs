@@ -24,7 +24,7 @@ namespace JASMINES__CONTACT_TRACING
 
         private void SubMbutt_Click(object sender, EventArgs e)
         {
-            StreamWriter doc = new StreamWriter(@"C:\Users\John Lloyd\Documents\CT app", true);
+            StreamWriter doc = new StreamWriter(@"C:\Users\John Lloyd\Documents\CT app\Record.txt", true);
             doc.WriteLine("First Name: " + FirstNbutt.Text);
             doc.WriteLine("Middle Name: " + MiddleNButt.Text);
             doc.WriteLine("Last Name: " + LastNButt.Text);
@@ -38,6 +38,7 @@ namespace JASMINES__CONTACT_TRACING
             doc.WriteLine("Barangay " + BrgyButt.Text);
             doc.WriteLine("Vaccinated ? Yes or No " + VaccYORButt.Text);
             doc.WriteLine("Temperature " + TempButt.Text);
+            doc.WriteLine("Email Adress " + EmailAButt.Text);
         }
     }
 }
