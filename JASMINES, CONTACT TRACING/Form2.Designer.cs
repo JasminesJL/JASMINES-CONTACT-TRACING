@@ -57,6 +57,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.EmailAddlabel = new System.Windows.Forms.Label();
             this.EmailAButt = new System.Windows.Forms.TextBox();
+            this.SubMbutt = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstNameLabel
@@ -326,12 +327,27 @@
             this.EmailAButt.Size = new System.Drawing.Size(246, 30);
             this.EmailAButt.TabIndex = 27;
             // 
+            // SubMbutt
+            // 
+            this.SubMbutt.BackColor = System.Drawing.Color.Firebrick;
+            this.SubMbutt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SubMbutt.Font = new System.Drawing.Font("Elephant", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.SubMbutt.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.SubMbutt.Location = new System.Drawing.Point(483, 548);
+            this.SubMbutt.Name = "SubMbutt";
+            this.SubMbutt.Size = new System.Drawing.Size(214, 45);
+            this.SubMbutt.TabIndex = 28;
+            this.SubMbutt.Text = "SUBMIT";
+            this.SubMbutt.UseVisualStyleBackColor = false;
+            this.SubMbutt.Click += new System.EventHandler(this.SubMbutt_Click);
+            // 
             // Filloutform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1204, 622);
+            this.Controls.Add(this.SubMbutt);
             this.Controls.Add(this.EmailAButt);
             this.Controls.Add(this.EmailAddlabel);
             this.Controls.Add(this.textBox1);
@@ -398,5 +414,6 @@
         private TextBox textBox1;
         private Label EmailAddlabel;
         private TextBox EmailAButt;
+        private Button SubMbutt;
     }
 }

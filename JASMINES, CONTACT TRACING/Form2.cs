@@ -21,5 +21,11 @@ namespace JASMINES__CONTACT_TRACING
         {
 
         }
+
+        private void SubMbutt_Click(object sender, EventArgs e)
+        {
+            StreamWriter doc = new StreamWriter(@"C:\Users\John Lloyd\Documents\CT app", true);
+            doc.WriteLine("First Name: " + FirstNbutt.Text);
+        }
     }
 }
