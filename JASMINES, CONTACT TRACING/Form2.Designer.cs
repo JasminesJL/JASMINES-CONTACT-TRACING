@@ -85,18 +85,20 @@
             // 
             // FirstNbutt
             // 
-            this.FirstNbutt.Location = new System.Drawing.Point(145, 31);
+            this.FirstNbutt.BackColor = System.Drawing.SystemColors.Info;
+            this.FirstNbutt.Location = new System.Drawing.Point(145, 40);
             this.FirstNbutt.Multiline = true;
             this.FirstNbutt.Name = "FirstNbutt";
-            this.FirstNbutt.Size = new System.Drawing.Size(146, 28);
+            this.FirstNbutt.Size = new System.Drawing.Size(146, 17);
             this.FirstNbutt.TabIndex = 1;
             // 
             // MiddleNButt
             // 
-            this.MiddleNButt.Location = new System.Drawing.Point(520, 27);
+            this.MiddleNButt.BackColor = System.Drawing.SystemColors.Info;
+            this.MiddleNButt.Location = new System.Drawing.Point(520, 40);
             this.MiddleNButt.Multiline = true;
             this.MiddleNButt.Name = "MiddleNButt";
-            this.MiddleNButt.Size = new System.Drawing.Size(140, 30);
+            this.MiddleNButt.Size = new System.Drawing.Size(140, 17);
             this.MiddleNButt.TabIndex = 3;
             // 
             // label2
@@ -112,10 +114,11 @@
             // 
             // LastNButt
             // 
-            this.LastNButt.Location = new System.Drawing.Point(895, 25);
+            this.LastNButt.BackColor = System.Drawing.SystemColors.Info;
+            this.LastNButt.Location = new System.Drawing.Point(895, 40);
             this.LastNButt.Multiline = true;
             this.LastNButt.Name = "LastNButt";
-            this.LastNButt.Size = new System.Drawing.Size(143, 32);
+            this.LastNButt.Size = new System.Drawing.Size(143, 17);
             this.LastNButt.TabIndex = 5;
             // 
             // Genderlabel
@@ -131,10 +134,11 @@
             // 
             // AgeButt
             // 
-            this.AgeButt.Location = new System.Drawing.Point(383, 110);
+            this.AgeButt.BackColor = System.Drawing.SystemColors.Info;
+            this.AgeButt.Location = new System.Drawing.Point(383, 121);
             this.AgeButt.Multiline = true;
             this.AgeButt.Name = "AgeButt";
-            this.AgeButt.Size = new System.Drawing.Size(101, 28);
+            this.AgeButt.Size = new System.Drawing.Size(101, 17);
             this.AgeButt.TabIndex = 7;
             // 
             // Gnderlabel
@@ -150,10 +154,11 @@
             // 
             // GendrButt
             // 
-            this.GendrButt.Location = new System.Drawing.Point(694, 110);
+            this.GendrButt.BackColor = System.Drawing.SystemColors.Info;
+            this.GendrButt.Location = new System.Drawing.Point(694, 121);
             this.GendrButt.Multiline = true;
             this.GendrButt.Name = "GendrButt";
-            this.GendrButt.Size = new System.Drawing.Size(135, 30);
+            this.GendrButt.Size = new System.Drawing.Size(135, 19);
             this.GendrButt.TabIndex = 9;
             // 
             // Cplabel
@@ -169,10 +174,11 @@
             // 
             // CellPButt
             // 
-            this.CellPButt.Location = new System.Drawing.Point(969, 210);
+            this.CellPButt.BackColor = System.Drawing.SystemColors.Info;
+            this.CellPButt.Location = new System.Drawing.Point(969, 223);
             this.CellPButt.Multiline = true;
             this.CellPButt.Name = "CellPButt";
-            this.CellPButt.Size = new System.Drawing.Size(162, 32);
+            this.CellPButt.Size = new System.Drawing.Size(162, 19);
             this.CellPButt.TabIndex = 11;
             // 
             // Addresslabel
@@ -188,10 +194,11 @@
             // 
             // AdressButt
             // 
-            this.AdressButt.Location = new System.Drawing.Point(104, 214);
+            this.AdressButt.BackColor = System.Drawing.SystemColors.Info;
+            this.AdressButt.Location = new System.Drawing.Point(104, 223);
             this.AdressButt.Multiline = true;
             this.AdressButt.Name = "AdressButt";
-            this.AdressButt.Size = new System.Drawing.Size(242, 28);
+            this.AdressButt.Size = new System.Drawing.Size(278, 19);
             this.AdressButt.TabIndex = 13;
             // 
             // TemperatureLabel
@@ -207,10 +214,11 @@
             // 
             // TempButt
             // 
-            this.TempButt.Location = new System.Drawing.Point(561, 441);
+            this.TempButt.BackColor = System.Drawing.SystemColors.Info;
+            this.TempButt.Location = new System.Drawing.Point(561, 452);
             this.TempButt.Multiline = true;
             this.TempButt.Name = "TempButt";
-            this.TempButt.Size = new System.Drawing.Size(112, 30);
+            this.TempButt.Size = new System.Drawing.Size(112, 19);
             this.TempButt.TabIndex = 15;
             // 
             // BirtDlabel
@@ -218,7 +226,7 @@
             this.BirtDlabel.AutoSize = true;
             this.BirtDlabel.BackColor = System.Drawing.Color.Transparent;
             this.BirtDlabel.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.BirtDlabel.Location = new System.Drawing.Point(388, 223);
+            this.BirtDlabel.Location = new System.Drawing.Point(431, 223);
             this.BirtDlabel.Name = "BirtDlabel";
             this.BirtDlabel.Size = new System.Drawing.Size(96, 19);
             this.BirtDlabel.TabIndex = 16;
@@ -227,10 +235,11 @@
             // 
             // BirthDButt
             // 
-            this.BirthDButt.Location = new System.Drawing.Point(499, 212);
+            this.BirthDButt.BackColor = System.Drawing.SystemColors.Info;
+            this.BirthDButt.Location = new System.Drawing.Point(540, 223);
             this.BirthDButt.Multiline = true;
             this.BirthDButt.Name = "BirthDButt";
-            this.BirthDButt.Size = new System.Drawing.Size(161, 30);
+            this.BirthDButt.Size = new System.Drawing.Size(161, 19);
             this.BirthDButt.TabIndex = 17;
             // 
             // Citylabel
@@ -246,10 +255,11 @@
             // 
             // CityButt
             // 
-            this.CityButt.Location = new System.Drawing.Point(507, 335);
+            this.CityButt.BackColor = System.Drawing.SystemColors.Info;
+            this.CityButt.Location = new System.Drawing.Point(507, 346);
             this.CityButt.Multiline = true;
             this.CityButt.Name = "CityButt";
-            this.CityButt.Size = new System.Drawing.Size(153, 30);
+            this.CityButt.Size = new System.Drawing.Size(153, 19);
             this.CityButt.TabIndex = 19;
             // 
             // ProvLabel
@@ -265,10 +275,11 @@
             // 
             // ProvButt
             // 
-            this.ProvButt.Location = new System.Drawing.Point(130, 335);
+            this.ProvButt.BackColor = System.Drawing.SystemColors.Info;
+            this.ProvButt.Location = new System.Drawing.Point(130, 346);
             this.ProvButt.Multiline = true;
             this.ProvButt.Name = "ProvButt";
-            this.ProvButt.Size = new System.Drawing.Size(161, 30);
+            this.ProvButt.Size = new System.Drawing.Size(161, 19);
             this.ProvButt.TabIndex = 21;
             // 
             // BrgyLabel
@@ -284,10 +295,11 @@
             // 
             // BrgyButt
             // 
-            this.BrgyButt.Location = new System.Drawing.Point(978, 324);
+            this.BrgyButt.BackColor = System.Drawing.SystemColors.Info;
+            this.BrgyButt.Location = new System.Drawing.Point(978, 335);
             this.BrgyButt.Multiline = true;
             this.BrgyButt.Name = "BrgyButt";
-            this.BrgyButt.Size = new System.Drawing.Size(153, 30);
+            this.BrgyButt.Size = new System.Drawing.Size(153, 19);
             this.BrgyButt.TabIndex = 23;
             // 
             // Vacclabel
@@ -303,10 +315,11 @@
             // 
             // VaccYORButt
             // 
-            this.VaccYORButt.Location = new System.Drawing.Point(234, 441);
+            this.VaccYORButt.BackColor = System.Drawing.SystemColors.Info;
+            this.VaccYORButt.Location = new System.Drawing.Point(234, 452);
             this.VaccYORButt.Multiline = true;
             this.VaccYORButt.Name = "VaccYORButt";
-            this.VaccYORButt.Size = new System.Drawing.Size(112, 30);
+            this.VaccYORButt.Size = new System.Drawing.Size(112, 19);
             this.VaccYORButt.TabIndex = 25;
             // 
             // EmailAddlabel
@@ -322,10 +335,11 @@
             // 
             // EmailAButt
             // 
-            this.EmailAButt.Location = new System.Drawing.Point(885, 441);
+            this.EmailAButt.BackColor = System.Drawing.SystemColors.Info;
+            this.EmailAButt.Location = new System.Drawing.Point(885, 452);
             this.EmailAButt.Multiline = true;
             this.EmailAButt.Name = "EmailAButt";
-            this.EmailAButt.Size = new System.Drawing.Size(246, 30);
+            this.EmailAButt.Size = new System.Drawing.Size(246, 19);
             this.EmailAButt.TabIndex = 27;
             // 
             // SubMbutt
@@ -334,7 +348,7 @@
             this.SubMbutt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SubMbutt.Font = new System.Drawing.Font("Elephant", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.SubMbutt.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.SubMbutt.Location = new System.Drawing.Point(797, 548);
+            this.SubMbutt.Location = new System.Drawing.Point(800, 544);
             this.SubMbutt.Name = "SubMbutt";
             this.SubMbutt.Size = new System.Drawing.Size(214, 45);
             this.SubMbutt.TabIndex = 28;
@@ -358,6 +372,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.PapayaWhip;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1204, 622);
             this.Controls.Add(this.BackButt);
