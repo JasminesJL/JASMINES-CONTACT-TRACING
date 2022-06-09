@@ -26,6 +26,6 @@ namespace JASMINES__CONTACT_TRACING
         {
             StreamWriter doc = new StreamWriter(@"C:\Users\John Lloyd\Documents\CT app", true);
             doc.WriteLine("First Name: " + FirstNbutt.Text);
-        }
+            doc.WriteLine("Middle Name: " + MiddleNButt.Text);
     }
 }
