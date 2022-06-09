@@ -38,7 +38,7 @@
             // 
             this.SignUpButt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SignUpButt.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.SignUpButt.Location = new System.Drawing.Point(180, 444);
+            this.SignUpButt.Location = new System.Drawing.Point(193, 426);
             this.SignUpButt.Name = "SignUpButt";
             this.SignUpButt.Size = new System.Drawing.Size(120, 46);
             this.SignUpButt.TabIndex = 0;
@@ -73,7 +73,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(510, 604);
+            this.ClientSize = new System.Drawing.Size(516, 604);
             this.Controls.Add(this.Title2label);
             this.Controls.Add(this.titlelabel);
             this.Controls.Add(this.SignUpButt);

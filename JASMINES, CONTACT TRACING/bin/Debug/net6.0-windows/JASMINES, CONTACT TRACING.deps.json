@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "JASMINES, CONTACT TRACING/1.0.0": {
+        "runtime": {
+          "JASMINES, CONTACT TRACING.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "JASMINES, CONTACT TRACING/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
