@@ -60,7 +60,9 @@ namespace JASMINES__CONTACT_TRACING
 
         private void BackButt_Click(object sender, EventArgs e)
         {
-           
+            this.Close();
+            Form1 frm = new Form1();
+            frm.Show();
         }
     }
 }
