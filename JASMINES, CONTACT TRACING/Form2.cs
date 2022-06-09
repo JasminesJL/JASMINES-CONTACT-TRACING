@@ -16,5 +16,10 @@ namespace JASMINES__CONTACT_TRACING
         {
             InitializeComponent();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
