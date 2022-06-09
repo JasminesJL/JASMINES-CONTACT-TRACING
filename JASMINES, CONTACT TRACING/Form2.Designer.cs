@@ -54,7 +54,7 @@
             this.BrgyLabel = new System.Windows.Forms.Label();
             this.BrgyButt = new System.Windows.Forms.TextBox();
             this.Vacclabel = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.VaccYORButt = new System.Windows.Forms.TextBox();
             this.EmailAddlabel = new System.Windows.Forms.Label();
             this.EmailAButt = new System.Windows.Forms.TextBox();
             this.SubMbutt = new System.Windows.Forms.Button();
@@ -300,13 +300,13 @@
             this.Vacclabel.TabIndex = 24;
             this.Vacclabel.Text = "Vaccinated ? Yes or No :";
             // 
-            // textBox1
+            // VaccYORButt
             // 
-            this.textBox1.Location = new System.Drawing.Point(234, 441);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(112, 30);
-            this.textBox1.TabIndex = 25;
+            this.VaccYORButt.Location = new System.Drawing.Point(234, 441);
+            this.VaccYORButt.Multiline = true;
+            this.VaccYORButt.Name = "VaccYORButt";
+            this.VaccYORButt.Size = new System.Drawing.Size(112, 30);
+            this.VaccYORButt.TabIndex = 25;
             // 
             // EmailAddlabel
             // 
@@ -350,7 +350,7 @@
             this.Controls.Add(this.SubMbutt);
             this.Controls.Add(this.EmailAButt);
             this.Controls.Add(this.EmailAddlabel);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.VaccYORButt);
             this.Controls.Add(this.Vacclabel);
             this.Controls.Add(this.BrgyButt);
             this.Controls.Add(this.BrgyLabel);
@@ -411,7 +411,7 @@
         private Label BrgyLabel;
         private TextBox BrgyButt;
         private Label Vacclabel;
-        private TextBox textBox1;
+        private TextBox VaccYORButt;
         private Label EmailAddlabel;
         private TextBox EmailAButt;
         private Button SubMbutt;

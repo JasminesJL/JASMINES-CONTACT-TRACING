@@ -36,7 +36,7 @@ namespace JASMINES__CONTACT_TRACING
             doc.WriteLine("Provinve " + ProvButt.Text);
             doc.WriteLine("City " + CityButt.Text);
             doc.WriteLine("Barangay " + BrgyButt.Text);
-
+            doc.WriteLine("Vaccinated ? Yes or No " + VaccYORButt.Text);
         }
     }
 }
