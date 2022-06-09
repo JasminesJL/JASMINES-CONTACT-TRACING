@@ -35,6 +35,7 @@ namespace JASMINES__CONTACT_TRACING
             doc.WriteLine("Cellphone Number: " + CellPButt.Text);
             doc.WriteLine("Provinve " + ProvButt.Text);
             doc.WriteLine("City " + CityButt.Text);
+            doc.WriteLine("Barangay " + BrgyButt.Text);
 
         }
     }
