@@ -64,5 +64,13 @@ namespace JASMINES__CONTACT_TRACING
             Form1 frm = new Form1();
             frm.Show();
         }
+
+        private void ExitButt_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Are you sure you want to quit?", "Exit Application", MessageBoxButtons.YesNo);
+            {
+                Application.Exit(); 
+            }
+        }
     }
 }

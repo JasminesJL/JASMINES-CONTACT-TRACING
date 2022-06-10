@@ -59,6 +59,7 @@
             this.EmailAButt = new System.Windows.Forms.TextBox();
             this.SubMbutt = new System.Windows.Forms.Button();
             this.BackButt = new System.Windows.Forms.Button();
+            this.ExitButt = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstNameLabel
@@ -368,6 +369,19 @@
             this.BackButt.UseVisualStyleBackColor = true;
             this.BackButt.Click += new System.EventHandler(this.BackButt_Click);
             // 
+            // ExitButt
+            // 
+            this.ExitButt.BackColor = System.Drawing.Color.Red;
+            this.ExitButt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ExitButt.ForeColor = System.Drawing.Color.White;
+            this.ExitButt.Location = new System.Drawing.Point(1126, 3);
+            this.ExitButt.Name = "ExitButt";
+            this.ExitButt.Size = new System.Drawing.Size(75, 23);
+            this.ExitButt.TabIndex = 30;
+            this.ExitButt.Text = "Exit";
+            this.ExitButt.UseVisualStyleBackColor = false;
+            this.ExitButt.Click += new System.EventHandler(this.ExitButt_Click);
+            // 
             // Filloutform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -375,6 +389,7 @@
             this.BackColor = System.Drawing.Color.PapayaWhip;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1204, 622);
+            this.Controls.Add(this.ExitButt);
             this.Controls.Add(this.BackButt);
             this.Controls.Add(this.SubMbutt);
             this.Controls.Add(this.EmailAButt);
@@ -445,5 +460,6 @@
         private TextBox EmailAButt;
         private Button SubMbutt;
         private Button BackButt;
+        private Button ExitButt;
     }
 }
