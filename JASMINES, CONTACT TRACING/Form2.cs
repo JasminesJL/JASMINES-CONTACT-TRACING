@@ -39,6 +39,7 @@ namespace JASMINES__CONTACT_TRACING
             doc.WriteLine("Vaccinated: ? Yes or No " + txtVYN.Text);
             doc.WriteLine("Temperature: " + txtTMP.Text);
             doc.WriteLine("Email Adress: " + txtED.Text); 
+            doc.WriteLine("Date: " + txtDT.Text);
             doc.Close();
 
             MessageBox.Show("Thankyou!, You are now Regitered. Stay Safe!", "Contract Tracing");

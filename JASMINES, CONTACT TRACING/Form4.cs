@@ -24,6 +24,12 @@ namespace JASMINES__CONTACT_TRACING
 
         private void ButtSADFC_Click(object sender, EventArgs e)
         {
+            Form5 all = new Form5();    
+            all.ShowDialog();   
+        }
+
+        private void ButtFRD_Click(object sender, EventArgs e)
+        {
 
         }
     }

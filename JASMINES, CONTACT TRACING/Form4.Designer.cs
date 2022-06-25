@@ -34,7 +34,7 @@
             this.ButtSADFC = new System.Windows.Forms.Button();
             this.lblFR = new System.Windows.Forms.Label();
             this.lblBDT = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.txtDT = new System.Windows.Forms.DateTimePicker();
             this.ButtFRD = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -95,13 +95,13 @@
             this.lblBDT.TabIndex = 4;
             this.lblBDT.Text = "by Date";
             // 
-            // dateTimePicker1
+            // txtDT
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dateTimePicker1.Location = new System.Drawing.Point(294, 346);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(250, 27);
-            this.dateTimePicker1.TabIndex = 5;
+            this.txtDT.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtDT.Location = new System.Drawing.Point(294, 346);
+            this.txtDT.Name = "txtDT";
+            this.txtDT.Size = new System.Drawing.Size(250, 27);
+            this.txtDT.TabIndex = 5;
             // 
             // ButtFRD
             // 
@@ -114,6 +114,7 @@
             this.ButtFRD.TabIndex = 6;
             this.ButtFRD.Text = "Proceed";
             this.ButtFRD.UseVisualStyleBackColor = false;
+            this.ButtFRD.Click += new System.EventHandler(this.ButtFRD_Click);
             // 
             // Form4
             // 
@@ -122,7 +123,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(874, 506);
             this.Controls.Add(this.ButtFRD);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.txtDT);
             this.Controls.Add(this.lblBDT);
             this.Controls.Add(this.lblFR);
             this.Controls.Add(this.ButtSADFC);
@@ -143,7 +144,7 @@
         private Button ButtSADFC;
         private Label lblFR;
         private Label lblBDT;
-        private DateTimePicker dateTimePicker1;
+        private DateTimePicker txtDT;
         private Button ButtFRD;
     }
 }
