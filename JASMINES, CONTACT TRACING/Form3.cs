@@ -26,8 +26,8 @@ namespace JASMINES__CONTACT_TRACING
         {
             if (txtUN.Text == "AdminJL" && txtPW.Text == "0402")
             {
-                new Form4().Show();
-                this.Hide();
+                Form4 info = new Form4();   
+                info.ShowDialog();
             }
             
             else

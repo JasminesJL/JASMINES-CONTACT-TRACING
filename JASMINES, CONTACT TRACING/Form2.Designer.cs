@@ -447,7 +447,7 @@
             this.Controls.Add(this.FirstNameLabel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Filloutform";
-            this.Text = " ";
+            this.Text = " FILL OUT FORM";
             this.ResumeLayout(false);
             this.PerformLayout();
 

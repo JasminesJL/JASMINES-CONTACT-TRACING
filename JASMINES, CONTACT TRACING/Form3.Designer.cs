@@ -30,18 +30,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Loginform));
             this.lblLOGIN = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.PICBUSER = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.PICBPW = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.buttLOGIN = new System.Windows.Forms.Button();
             this.lblEXIT = new System.Windows.Forms.Label();
             this.txtUN = new System.Windows.Forms.TextBox();
             this.txtPW = new System.Windows.Forms.TextBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.PICB1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.PICBUSER)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PICBPW)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PICB1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblLOGIN
@@ -55,15 +55,15 @@
             this.lblLOGIN.TabIndex = 0;
             this.lblLOGIN.Text = "ADMIN LOG IN";
             // 
-            // pictureBox1
+            // PICBUSER
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(101, 259);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(30, 28);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.PICBUSER.Image = ((System.Drawing.Image)(resources.GetObject("PICBUSER.Image")));
+            this.PICBUSER.Location = new System.Drawing.Point(101, 259);
+            this.PICBUSER.Name = "PICBUSER";
+            this.PICBUSER.Size = new System.Drawing.Size(30, 28);
+            this.PICBUSER.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PICBUSER.TabIndex = 1;
+            this.PICBUSER.TabStop = false;
             // 
             // panel1
             // 
@@ -73,15 +73,15 @@
             this.panel1.Size = new System.Drawing.Size(236, 2);
             this.panel1.TabIndex = 2;
             // 
-            // pictureBox2
+            // PICBPW
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(101, 347);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(30, 28);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.PICBPW.Image = ((System.Drawing.Image)(resources.GetObject("PICBPW.Image")));
+            this.PICBPW.Location = new System.Drawing.Point(101, 347);
+            this.PICBPW.Name = "PICBPW";
+            this.PICBPW.Size = new System.Drawing.Size(30, 28);
+            this.PICBPW.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PICBPW.TabIndex = 1;
+            this.PICBPW.TabStop = false;
             // 
             // panel2
             // 
@@ -140,17 +140,17 @@
             this.txtPW.Size = new System.Drawing.Size(198, 24);
             this.txtPW.TabIndex = 6;
             // 
-            // pictureBox3
+            // PICB1
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(87, 12);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(283, 136);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 7;
-            this.pictureBox3.TabStop = false;
+            this.PICB1.BackColor = System.Drawing.Color.Transparent;
+            this.PICB1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.PICB1.Image = ((System.Drawing.Image)(resources.GetObject("PICB1.Image")));
+            this.PICB1.Location = new System.Drawing.Point(87, 12);
+            this.PICB1.Name = "PICB1";
+            this.PICB1.Size = new System.Drawing.Size(283, 136);
+            this.PICB1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PICB1.TabIndex = 7;
+            this.PICB1.TabStop = false;
             // 
             // Loginform
             // 
@@ -158,23 +158,23 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(469, 587);
-            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.PICB1);
             this.Controls.Add(this.txtPW);
             this.Controls.Add(this.txtUN);
             this.Controls.Add(this.lblEXIT);
             this.Controls.Add(this.buttLOGIN);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.PICBPW);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.PICBUSER);
             this.Controls.Add(this.lblLOGIN);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Loginform";
             this.Text = "LOG IN ";
             this.Load += new System.EventHandler(this.Loginform_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PICBUSER)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PICBPW)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PICB1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -183,14 +183,14 @@
         #endregion
 
         private Label lblLOGIN;
-        private PictureBox pictureBox1;
+        private PictureBox PICBUSER;
         private Panel panel1;
-        private PictureBox pictureBox2;
+        private PictureBox PICBPW;
         private Panel panel2;
         private Button buttLOGIN;
         private Label lblEXIT;
         private TextBox txtUN;
         private TextBox txtPW;
-        private PictureBox pictureBox3;
+        private PictureBox PICB1;
     }
 }
