@@ -1,6 +1,6 @@
 ﻿namespace JASMINES__CONTACT_TRACING
 {
-    partial class Loginform
+    partial class F3
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Loginform));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F3));
             this.lblLOGIN = new System.Windows.Forms.Label();
             this.PICBUSER = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -152,7 +152,7 @@
             this.PICB1.TabIndex = 7;
             this.PICB1.TabStop = false;
             // 
-            // Loginform
+            // F3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -169,7 +169,7 @@
             this.Controls.Add(this.PICBUSER);
             this.Controls.Add(this.lblLOGIN);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Loginform";
+            this.Name = "F3";
             this.Text = "LOG IN ";
             this.Load += new System.EventHandler(this.Loginform_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PICBUSER)).EndInit();

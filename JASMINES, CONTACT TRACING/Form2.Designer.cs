@@ -1,6 +1,6 @@
 ﻿namespace JASMINES__CONTACT_TRACING
 {
-    partial class Filloutform
+    partial class F2
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Filloutform));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F2));
             this.FirstNameLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtFN = new System.Windows.Forms.TextBox();
@@ -405,7 +405,7 @@
             this.buttADMN.UseVisualStyleBackColor = true;
             this.buttADMN.Click += new System.EventHandler(this.buttADMN_Click);
             // 
-            // Filloutform
+            // F2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -446,7 +446,7 @@
             this.Controls.Add(this.txtFN);
             this.Controls.Add(this.FirstNameLabel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Filloutform";
+            this.Name = "F2";
             this.Text = " FILL OUT FORM";
             this.ResumeLayout(false);
             this.PerformLayout();

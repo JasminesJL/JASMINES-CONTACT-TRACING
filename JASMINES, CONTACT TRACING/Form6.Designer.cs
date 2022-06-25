@@ -1,6 +1,6 @@
 ﻿namespace JASMINES__CONTACT_TRACING
 {
-    partial class F5
+    partial class F6
     {
         /// <summary>
         /// Required designer variable.
@@ -28,34 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F5));
-            this.LblSA = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F6));
+            this.lblFRBD = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // LblSA
+            // lblFRBD
             // 
-            this.LblSA.AutoSize = true;
-            this.LblSA.BackColor = System.Drawing.Color.Transparent;
-            this.LblSA.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LblSA.Location = new System.Drawing.Point(14, 12);
-            this.LblSA.Name = "LblSA";
-            this.LblSA.Size = new System.Drawing.Size(78, 15);
-            this.LblSA.TabIndex = 1;
-            this.LblSA.Text = "ALL DATA";
+            this.lblFRBD.AutoSize = true;
+            this.lblFRBD.BackColor = System.Drawing.Color.Transparent;
+            this.lblFRBD.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblFRBD.Location = new System.Drawing.Point(12, 9);
+            this.lblFRBD.Name = "lblFRBD";
+            this.lblFRBD.Size = new System.Drawing.Size(150, 15);
+            this.lblFRBD.TabIndex = 4;
+            this.lblFRBD.Text = "Filter Record by Date";
             // 
-            // F5
+            // F6
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(514, 879);
-            this.Controls.Add(this.LblSA);
-            this.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ClientSize = new System.Drawing.Size(515, 656);
+            this.Controls.Add(this.lblFRBD);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "F5";
-            this.Text = "All Gathered Info";
-            this.Load += new System.EventHandler(this.Form5_Load);
+            this.Name = "F6";
+            this.Text = "Record by Dates";
+            this.Load += new System.EventHandler(this.F6_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -63,6 +61,6 @@
 
         #endregion
 
-        private Label LblSA;
+        private Label lblFRBD;
     }
 }

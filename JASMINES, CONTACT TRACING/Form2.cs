@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace JASMINES__CONTACT_TRACING
 {
-    public partial class Filloutform : Form
+    public partial class F2 : Form
     {
-        public Filloutform()
+        public F2()
         {
             InitializeComponent();
         }
@@ -63,7 +63,7 @@ namespace JASMINES__CONTACT_TRACING
         private void BackButt_Click(object sender, EventArgs e)
         {
             this.Close();
-            Form1 frm = new Form1();
+            F1 frm = new F1();
             frm.Show();
         }
 
@@ -77,7 +77,7 @@ namespace JASMINES__CONTACT_TRACING
 
         private void buttADMN_Click(object sender, EventArgs e)
         {
-            var form3 = new Loginform(); 
+            var form3 = new F3(); 
             form3.Show();   
             this.Hide();    
         }

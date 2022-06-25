@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace JASMINES__CONTACT_TRACING
 {
-    public partial class Loginform : Form
+    public partial class F3 : Form
     {
-        public Loginform()
+        public F3()
         {
             InitializeComponent();
         }
@@ -26,7 +26,7 @@ namespace JASMINES__CONTACT_TRACING
         {
             if (txtUN.Text == "AdminJL" && txtPW.Text == "0402")
             {
-                Form4 info = new Form4();   
+                F4 info = new F4();   
                 info.ShowDialog();
             }
             

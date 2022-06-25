@@ -10,20 +10,20 @@ using System.Windows.Forms;
 
 namespace JASMINES__CONTACT_TRACING
 {
-    public partial class F5 : Form
+    public partial class F6 : Form
     {
-        public F5()
+        public F6()
         {
             InitializeComponent();
-            var txtfiles = Directory.GetFiles(@"C:\Users\John Lloyd\Documents\CT app");
-            foreach (string file in txtfiles)
+            var dateFiles = Directory.GetFiles(@"C:\Users\John Lloyd\Documents\CT app\Date");
+            foreach (string file in dateFiles)
             {
-                string contents = File.ReadAllText(file);
-                LblSA.Text += contents + "\n";     
+                string dates = File.ReadAllText(file);
+                lblFRBD.Text = lblFRBD.Text + dates +"\n";
             }
         }
 
-        private void Form5_Load(object sender, EventArgs e)
+        private void F6_Load(object sender, EventArgs e)
         {
 
         }

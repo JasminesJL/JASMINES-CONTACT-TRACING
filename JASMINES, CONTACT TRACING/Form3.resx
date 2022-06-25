@@ -295,7 +295,7 @@
   <data name="PICBPW.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAANcAAADUCAYAAAAP6bYbAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAADoxJREFUeF7tnU1sHOUZxyM1IeXTPsCaA1/mI8pWFE67LVDtUtWm9mF9AexDy7qH
+        vwAADr8BOAVTJAAADoxJREFUeF7tnU1sHOUZxyM1IeXTPsCaA1/mI8pWFE67LVDtUtWm9mF9AexDy7qH
         rg+xBKiXLFSyaSUbTt4DoBo3IjZSJZv2QjF2msSm/hBVC7YMUsEfdfoRJevFVvnofbbPA6+lEB6H9c77
         rj3v8/9JP/3HJnjWM/P3zM7OvHMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOwfSqXSdUtLS/eOj4+3
         jI6OPj40NJTr7e19rru7++VsNvtae3v771me5u/l8/nnC4XC0/xv+f95//33v7u5uXm9+XEA6KNcLh8q
@@ -363,7 +363,7 @@
   <data name="PICB1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAfQAAAH0CAYAAADL1t+KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAAn+FJREFUeF7tnQdcFEf///8pT/qTPOlPfukxPcbeK3aNRhNjNHZAAwpIsRdU7L0C
+        EAAACxABrSO9dQAAn+FJREFUeF7tnQdcFEf///8pT/qTPOlPfukxPcbeK3aNRhNjNHZAAwpIsRdU7L0C
         FooFFRQVFbuggor03nuVXu72+t7e7n9nGfIYsyrsFe6O7/v1+rxiFGZn52DfO7OzM/8PAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -1051,7 +1051,7 @@
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAPoAAADaCAIAAAAAIshcAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAroSURBVHhe7d15
+        vwAADr8BOAVTJAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAroSURBVHhe7d15
         V9tmFsfxef/vZ6bLJNM2badJCgGSYIx37ftmO//32haOubbAi2w9eu7vnO/p6QHJkMMHcbVZ//pW+AgJ
         CdyRoMAdCQrckaDAHQkK3JGgwB0JSgHuuZcFvcT5kod9/imEaq1h7tPEcHq/mJ0fV7mDd7PMZssgVFcN
         c3f6vxqdH9bcKX/0ni2DUF01yZ027cb9fxh3s/PTPHPYkgjVUpPci2i4k/ssNdmSCNVSk9xpK252fmDc
