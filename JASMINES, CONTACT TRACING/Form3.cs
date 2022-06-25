@@ -21,5 +21,27 @@ namespace JASMINES__CONTACT_TRACING
         {
 
         }
+
+        private void buttLOGIN_Click(object sender, EventArgs e)
+        {
+            if (txtUN.Text == "AdminJL" && txtPW.Text == "0402")
+            {
+                new Form4().Show();
+                this.Hide();
+            }
+            
+            else
+            {
+                MessageBox.Show("The USER NAME or PASSWORD you entered is incorrect, try again");
+                txtUN.Clear();  
+                txtPW.Clear();
+                txtUN.Focus();  
+            }
+        }
+
+        private void lblEXIT_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

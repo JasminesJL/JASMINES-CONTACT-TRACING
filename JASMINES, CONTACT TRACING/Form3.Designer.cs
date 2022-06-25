@@ -38,8 +38,10 @@
             this.lblEXIT = new System.Windows.Forms.Label();
             this.txtUN = new System.Windows.Forms.TextBox();
             this.txtPW = new System.Windows.Forms.TextBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // lblLOGIN
@@ -47,7 +49,7 @@
             this.lblLOGIN.AutoSize = true;
             this.lblLOGIN.BackColor = System.Drawing.Color.Transparent;
             this.lblLOGIN.Font = new System.Drawing.Font("Cooper Black", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblLOGIN.Location = new System.Drawing.Point(81, 138);
+            this.lblLOGIN.Location = new System.Drawing.Point(84, 161);
             this.lblLOGIN.Name = "lblLOGIN";
             this.lblLOGIN.Size = new System.Drawing.Size(286, 40);
             this.lblLOGIN.TabIndex = 0;
@@ -102,6 +104,7 @@
             this.buttLOGIN.TabIndex = 3;
             this.buttLOGIN.Text = "LOG IN";
             this.buttLOGIN.UseVisualStyleBackColor = false;
+            this.buttLOGIN.Click += new System.EventHandler(this.buttLOGIN_Click);
             // 
             // lblEXIT
             // 
@@ -113,6 +116,7 @@
             this.lblEXIT.Size = new System.Drawing.Size(49, 20);
             this.lblEXIT.TabIndex = 4;
             this.lblEXIT.Text = "EXIT";
+            this.lblEXIT.Click += new System.EventHandler(this.lblEXIT_Click);
             // 
             // txtUN
             // 
@@ -136,12 +140,25 @@
             this.txtPW.Size = new System.Drawing.Size(198, 24);
             this.txtPW.TabIndex = 6;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(87, 12);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(283, 136);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 7;
+            this.pictureBox3.TabStop = false;
+            // 
             // Loginform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(469, 587);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.txtPW);
             this.Controls.Add(this.txtUN);
             this.Controls.Add(this.lblEXIT);
@@ -157,6 +174,7 @@
             this.Load += new System.EventHandler(this.Loginform_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -173,5 +191,6 @@
         private Label lblEXIT;
         private TextBox txtUN;
         private TextBox txtPW;
+        private PictureBox pictureBox3;
     }
 }
