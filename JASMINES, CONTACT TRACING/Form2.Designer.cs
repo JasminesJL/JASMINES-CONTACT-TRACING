@@ -31,35 +31,37 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Filloutform));
             this.FirstNameLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.FirstNbutt = new System.Windows.Forms.TextBox();
-            this.MiddleNButt = new System.Windows.Forms.TextBox();
+            this.txtFN = new System.Windows.Forms.TextBox();
+            this.txtMN = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.LastNButt = new System.Windows.Forms.TextBox();
+            this.txtLN = new System.Windows.Forms.TextBox();
             this.Genderlabel = new System.Windows.Forms.Label();
-            this.AgeButt = new System.Windows.Forms.TextBox();
+            this.txtAGE = new System.Windows.Forms.TextBox();
             this.Gnderlabel = new System.Windows.Forms.Label();
-            this.GendrButt = new System.Windows.Forms.TextBox();
+            this.txtGDR = new System.Windows.Forms.TextBox();
             this.Cplabel = new System.Windows.Forms.Label();
-            this.CellPButt = new System.Windows.Forms.TextBox();
+            this.txtCN = new System.Windows.Forms.TextBox();
             this.Addresslabel = new System.Windows.Forms.Label();
-            this.AdressButt = new System.Windows.Forms.TextBox();
+            this.txtADR = new System.Windows.Forms.TextBox();
             this.TemperatureLabel = new System.Windows.Forms.Label();
-            this.TempButt = new System.Windows.Forms.TextBox();
+            this.txtTMP = new System.Windows.Forms.TextBox();
             this.BirtDlabel = new System.Windows.Forms.Label();
-            this.BirthDButt = new System.Windows.Forms.TextBox();
+            this.txtBDY = new System.Windows.Forms.TextBox();
             this.Citylabel = new System.Windows.Forms.Label();
-            this.CityButt = new System.Windows.Forms.TextBox();
+            this.txtCTY = new System.Windows.Forms.TextBox();
             this.ProvLabel = new System.Windows.Forms.Label();
-            this.ProvButt = new System.Windows.Forms.TextBox();
+            this.txtPRV = new System.Windows.Forms.TextBox();
             this.BrgyLabel = new System.Windows.Forms.Label();
-            this.BrgyButt = new System.Windows.Forms.TextBox();
+            this.txtBRG = new System.Windows.Forms.TextBox();
             this.Vacclabel = new System.Windows.Forms.Label();
-            this.VaccYORButt = new System.Windows.Forms.TextBox();
+            this.txtVYN = new System.Windows.Forms.TextBox();
             this.EmailAddlabel = new System.Windows.Forms.Label();
-            this.EmailAButt = new System.Windows.Forms.TextBox();
+            this.txtED = new System.Windows.Forms.TextBox();
             this.SubMbutt = new System.Windows.Forms.Button();
             this.BackButt = new System.Windows.Forms.Button();
             this.ExitButt = new System.Windows.Forms.Button();
+            this.txtDT = new System.Windows.Forms.DateTimePicker();
+            this.buttADMN = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstNameLabel
@@ -67,7 +69,7 @@
             this.FirstNameLabel.AutoSize = true;
             this.FirstNameLabel.BackColor = System.Drawing.Color.Transparent;
             this.FirstNameLabel.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FirstNameLabel.Location = new System.Drawing.Point(24, 40);
+            this.FirstNameLabel.Location = new System.Drawing.Point(24, 74);
             this.FirstNameLabel.Name = "FirstNameLabel";
             this.FirstNameLabel.Size = new System.Drawing.Size(104, 19);
             this.FirstNameLabel.TabIndex = 0;
@@ -78,89 +80,89 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(388, 40);
+            this.label1.Location = new System.Drawing.Point(383, 74);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(117, 19);
             this.label1.TabIndex = 2;
             this.label1.Text = "MiddleName :";
             // 
-            // FirstNbutt
+            // txtFN
             // 
-            this.FirstNbutt.BackColor = System.Drawing.SystemColors.Info;
-            this.FirstNbutt.Location = new System.Drawing.Point(145, 40);
-            this.FirstNbutt.Multiline = true;
-            this.FirstNbutt.Name = "FirstNbutt";
-            this.FirstNbutt.Size = new System.Drawing.Size(146, 17);
-            this.FirstNbutt.TabIndex = 1;
+            this.txtFN.BackColor = System.Drawing.SystemColors.Info;
+            this.txtFN.Location = new System.Drawing.Point(145, 76);
+            this.txtFN.Multiline = true;
+            this.txtFN.Name = "txtFN";
+            this.txtFN.Size = new System.Drawing.Size(146, 17);
+            this.txtFN.TabIndex = 1;
             // 
-            // MiddleNButt
+            // txtMN
             // 
-            this.MiddleNButt.BackColor = System.Drawing.SystemColors.Info;
-            this.MiddleNButt.Location = new System.Drawing.Point(520, 40);
-            this.MiddleNButt.Multiline = true;
-            this.MiddleNButt.Name = "MiddleNButt";
-            this.MiddleNButt.Size = new System.Drawing.Size(140, 17);
-            this.MiddleNButt.TabIndex = 3;
+            this.txtMN.BackColor = System.Drawing.SystemColors.Info;
+            this.txtMN.Location = new System.Drawing.Point(520, 74);
+            this.txtMN.Multiline = true;
+            this.txtMN.Name = "txtMN";
+            this.txtMN.Size = new System.Drawing.Size(140, 17);
+            this.txtMN.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(782, 40);
+            this.label2.Location = new System.Drawing.Point(782, 74);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(97, 19);
             this.label2.TabIndex = 4;
             this.label2.Text = "LastName :";
             // 
-            // LastNButt
+            // txtLN
             // 
-            this.LastNButt.BackColor = System.Drawing.SystemColors.Info;
-            this.LastNButt.Location = new System.Drawing.Point(895, 40);
-            this.LastNButt.Multiline = true;
-            this.LastNButt.Name = "LastNButt";
-            this.LastNButt.Size = new System.Drawing.Size(143, 17);
-            this.LastNButt.TabIndex = 5;
+            this.txtLN.BackColor = System.Drawing.SystemColors.Info;
+            this.txtLN.Location = new System.Drawing.Point(896, 74);
+            this.txtLN.Multiline = true;
+            this.txtLN.Name = "txtLN";
+            this.txtLN.Size = new System.Drawing.Size(143, 17);
+            this.txtLN.TabIndex = 5;
             // 
             // Genderlabel
             // 
             this.Genderlabel.AutoSize = true;
             this.Genderlabel.BackColor = System.Drawing.Color.Transparent;
             this.Genderlabel.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Genderlabel.Location = new System.Drawing.Point(310, 121);
+            this.Genderlabel.Location = new System.Drawing.Point(318, 147);
             this.Genderlabel.Name = "Genderlabel";
             this.Genderlabel.Size = new System.Drawing.Size(48, 19);
             this.Genderlabel.TabIndex = 6;
             this.Genderlabel.Text = "Age :";
             // 
-            // AgeButt
+            // txtAGE
             // 
-            this.AgeButt.BackColor = System.Drawing.SystemColors.Info;
-            this.AgeButt.Location = new System.Drawing.Point(383, 121);
-            this.AgeButt.Multiline = true;
-            this.AgeButt.Name = "AgeButt";
-            this.AgeButt.Size = new System.Drawing.Size(101, 17);
-            this.AgeButt.TabIndex = 7;
+            this.txtAGE.BackColor = System.Drawing.SystemColors.Info;
+            this.txtAGE.Location = new System.Drawing.Point(383, 147);
+            this.txtAGE.Multiline = true;
+            this.txtAGE.Name = "txtAGE";
+            this.txtAGE.Size = new System.Drawing.Size(101, 17);
+            this.txtAGE.TabIndex = 7;
             // 
             // Gnderlabel
             // 
             this.Gnderlabel.AutoSize = true;
             this.Gnderlabel.BackColor = System.Drawing.Color.Transparent;
             this.Gnderlabel.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Gnderlabel.Location = new System.Drawing.Point(611, 121);
+            this.Gnderlabel.Location = new System.Drawing.Point(611, 147);
             this.Gnderlabel.Name = "Gnderlabel";
             this.Gnderlabel.Size = new System.Drawing.Size(77, 19);
             this.Gnderlabel.TabIndex = 8;
             this.Gnderlabel.Text = "Gender :";
             // 
-            // GendrButt
+            // txtGDR
             // 
-            this.GendrButt.BackColor = System.Drawing.SystemColors.Info;
-            this.GendrButt.Location = new System.Drawing.Point(694, 121);
-            this.GendrButt.Multiline = true;
-            this.GendrButt.Name = "GendrButt";
-            this.GendrButt.Size = new System.Drawing.Size(135, 19);
-            this.GendrButt.TabIndex = 9;
+            this.txtGDR.BackColor = System.Drawing.SystemColors.Info;
+            this.txtGDR.Location = new System.Drawing.Point(694, 147);
+            this.txtGDR.Multiline = true;
+            this.txtGDR.Name = "txtGDR";
+            this.txtGDR.Size = new System.Drawing.Size(135, 19);
+            this.txtGDR.TabIndex = 9;
             // 
             // Cplabel
             // 
@@ -173,14 +175,14 @@
             this.Cplabel.TabIndex = 10;
             this.Cplabel.Text = "Cellphone Number :";
             // 
-            // CellPButt
+            // txtCN
             // 
-            this.CellPButt.BackColor = System.Drawing.SystemColors.Info;
-            this.CellPButt.Location = new System.Drawing.Point(969, 223);
-            this.CellPButt.Multiline = true;
-            this.CellPButt.Name = "CellPButt";
-            this.CellPButt.Size = new System.Drawing.Size(162, 19);
-            this.CellPButt.TabIndex = 11;
+            this.txtCN.BackColor = System.Drawing.SystemColors.Info;
+            this.txtCN.Location = new System.Drawing.Point(969, 223);
+            this.txtCN.Multiline = true;
+            this.txtCN.Name = "txtCN";
+            this.txtCN.Size = new System.Drawing.Size(162, 19);
+            this.txtCN.TabIndex = 11;
             // 
             // Addresslabel
             // 
@@ -193,14 +195,14 @@
             this.Addresslabel.TabIndex = 12;
             this.Addresslabel.Text = "Adress :";
             // 
-            // AdressButt
+            // txtADR
             // 
-            this.AdressButt.BackColor = System.Drawing.SystemColors.Info;
-            this.AdressButt.Location = new System.Drawing.Point(104, 223);
-            this.AdressButt.Multiline = true;
-            this.AdressButt.Name = "AdressButt";
-            this.AdressButt.Size = new System.Drawing.Size(278, 19);
-            this.AdressButt.TabIndex = 13;
+            this.txtADR.BackColor = System.Drawing.SystemColors.Info;
+            this.txtADR.Location = new System.Drawing.Point(104, 223);
+            this.txtADR.Multiline = true;
+            this.txtADR.Name = "txtADR";
+            this.txtADR.Size = new System.Drawing.Size(278, 19);
+            this.txtADR.TabIndex = 13;
             // 
             // TemperatureLabel
             // 
@@ -213,14 +215,14 @@
             this.TemperatureLabel.TabIndex = 14;
             this.TemperatureLabel.Text = "Temperature :";
             // 
-            // TempButt
+            // txtTMP
             // 
-            this.TempButt.BackColor = System.Drawing.SystemColors.Info;
-            this.TempButt.Location = new System.Drawing.Point(561, 452);
-            this.TempButt.Multiline = true;
-            this.TempButt.Name = "TempButt";
-            this.TempButt.Size = new System.Drawing.Size(112, 19);
-            this.TempButt.TabIndex = 15;
+            this.txtTMP.BackColor = System.Drawing.SystemColors.Info;
+            this.txtTMP.Location = new System.Drawing.Point(561, 452);
+            this.txtTMP.Multiline = true;
+            this.txtTMP.Name = "txtTMP";
+            this.txtTMP.Size = new System.Drawing.Size(112, 19);
+            this.txtTMP.TabIndex = 15;
             // 
             // BirtDlabel
             // 
@@ -234,14 +236,14 @@
             this.BirtDlabel.Text = "Birthdate :";
             this.BirtDlabel.Click += new System.EventHandler(this.label3_Click);
             // 
-            // BirthDButt
+            // txtBDY
             // 
-            this.BirthDButt.BackColor = System.Drawing.SystemColors.Info;
-            this.BirthDButt.Location = new System.Drawing.Point(540, 223);
-            this.BirthDButt.Multiline = true;
-            this.BirthDButt.Name = "BirthDButt";
-            this.BirthDButt.Size = new System.Drawing.Size(161, 19);
-            this.BirthDButt.TabIndex = 17;
+            this.txtBDY.BackColor = System.Drawing.SystemColors.Info;
+            this.txtBDY.Location = new System.Drawing.Point(540, 223);
+            this.txtBDY.Multiline = true;
+            this.txtBDY.Name = "txtBDY";
+            this.txtBDY.Size = new System.Drawing.Size(161, 19);
+            this.txtBDY.TabIndex = 17;
             // 
             // Citylabel
             // 
@@ -254,14 +256,14 @@
             this.Citylabel.TabIndex = 18;
             this.Citylabel.Text = "City :";
             // 
-            // CityButt
+            // txtCTY
             // 
-            this.CityButt.BackColor = System.Drawing.SystemColors.Info;
-            this.CityButt.Location = new System.Drawing.Point(507, 346);
-            this.CityButt.Multiline = true;
-            this.CityButt.Name = "CityButt";
-            this.CityButt.Size = new System.Drawing.Size(153, 19);
-            this.CityButt.TabIndex = 19;
+            this.txtCTY.BackColor = System.Drawing.SystemColors.Info;
+            this.txtCTY.Location = new System.Drawing.Point(507, 346);
+            this.txtCTY.Multiline = true;
+            this.txtCTY.Name = "txtCTY";
+            this.txtCTY.Size = new System.Drawing.Size(153, 19);
+            this.txtCTY.TabIndex = 19;
             // 
             // ProvLabel
             // 
@@ -274,14 +276,14 @@
             this.ProvLabel.TabIndex = 20;
             this.ProvLabel.Text = "Province :";
             // 
-            // ProvButt
+            // txtPRV
             // 
-            this.ProvButt.BackColor = System.Drawing.SystemColors.Info;
-            this.ProvButt.Location = new System.Drawing.Point(130, 346);
-            this.ProvButt.Multiline = true;
-            this.ProvButt.Name = "ProvButt";
-            this.ProvButt.Size = new System.Drawing.Size(161, 19);
-            this.ProvButt.TabIndex = 21;
+            this.txtPRV.BackColor = System.Drawing.SystemColors.Info;
+            this.txtPRV.Location = new System.Drawing.Point(130, 346);
+            this.txtPRV.Multiline = true;
+            this.txtPRV.Name = "txtPRV";
+            this.txtPRV.Size = new System.Drawing.Size(161, 19);
+            this.txtPRV.TabIndex = 21;
             // 
             // BrgyLabel
             // 
@@ -294,14 +296,14 @@
             this.BrgyLabel.TabIndex = 22;
             this.BrgyLabel.Text = "Barangay :";
             // 
-            // BrgyButt
+            // txtBRG
             // 
-            this.BrgyButt.BackColor = System.Drawing.SystemColors.Info;
-            this.BrgyButt.Location = new System.Drawing.Point(978, 335);
-            this.BrgyButt.Multiline = true;
-            this.BrgyButt.Name = "BrgyButt";
-            this.BrgyButt.Size = new System.Drawing.Size(153, 19);
-            this.BrgyButt.TabIndex = 23;
+            this.txtBRG.BackColor = System.Drawing.SystemColors.Info;
+            this.txtBRG.Location = new System.Drawing.Point(978, 335);
+            this.txtBRG.Multiline = true;
+            this.txtBRG.Name = "txtBRG";
+            this.txtBRG.Size = new System.Drawing.Size(153, 19);
+            this.txtBRG.TabIndex = 23;
             // 
             // Vacclabel
             // 
@@ -314,14 +316,14 @@
             this.Vacclabel.TabIndex = 24;
             this.Vacclabel.Text = "Vaccinated ? Yes or No :";
             // 
-            // VaccYORButt
+            // txtVYN
             // 
-            this.VaccYORButt.BackColor = System.Drawing.SystemColors.Info;
-            this.VaccYORButt.Location = new System.Drawing.Point(234, 452);
-            this.VaccYORButt.Multiline = true;
-            this.VaccYORButt.Name = "VaccYORButt";
-            this.VaccYORButt.Size = new System.Drawing.Size(112, 19);
-            this.VaccYORButt.TabIndex = 25;
+            this.txtVYN.BackColor = System.Drawing.SystemColors.Info;
+            this.txtVYN.Location = new System.Drawing.Point(234, 452);
+            this.txtVYN.Multiline = true;
+            this.txtVYN.Name = "txtVYN";
+            this.txtVYN.Size = new System.Drawing.Size(112, 19);
+            this.txtVYN.TabIndex = 25;
             // 
             // EmailAddlabel
             // 
@@ -334,14 +336,14 @@
             this.EmailAddlabel.TabIndex = 26;
             this.EmailAddlabel.Text = "Email Adress :";
             // 
-            // EmailAButt
+            // txtED
             // 
-            this.EmailAButt.BackColor = System.Drawing.SystemColors.Info;
-            this.EmailAButt.Location = new System.Drawing.Point(885, 452);
-            this.EmailAButt.Multiline = true;
-            this.EmailAButt.Name = "EmailAButt";
-            this.EmailAButt.Size = new System.Drawing.Size(246, 19);
-            this.EmailAButt.TabIndex = 27;
+            this.txtED.BackColor = System.Drawing.SystemColors.Info;
+            this.txtED.Location = new System.Drawing.Point(885, 452);
+            this.txtED.Multiline = true;
+            this.txtED.Name = "txtED";
+            this.txtED.Size = new System.Drawing.Size(246, 19);
+            this.txtED.TabIndex = 27;
             // 
             // SubMbutt
             // 
@@ -349,7 +351,7 @@
             this.SubMbutt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SubMbutt.Font = new System.Drawing.Font("Elephant", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.SubMbutt.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.SubMbutt.Location = new System.Drawing.Point(800, 544);
+            this.SubMbutt.Location = new System.Drawing.Point(507, 530);
             this.SubMbutt.Name = "SubMbutt";
             this.SubMbutt.Size = new System.Drawing.Size(214, 45);
             this.SubMbutt.TabIndex = 28;
@@ -382,6 +384,27 @@
             this.ExitButt.UseVisualStyleBackColor = false;
             this.ExitButt.Click += new System.EventHandler(this.ExitButt_Click);
             // 
+            // txtDT
+            // 
+            this.txtDT.CalendarMonthBackground = System.Drawing.SystemColors.Info;
+            this.txtDT.Font = new System.Drawing.Font("Cooper Black", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtDT.Location = new System.Drawing.Point(12, 24);
+            this.txtDT.Name = "txtDT";
+            this.txtDT.Size = new System.Drawing.Size(241, 21);
+            this.txtDT.TabIndex = 31;
+            // 
+            // buttADMN
+            // 
+            this.buttADMN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttADMN.Font = new System.Drawing.Font("Dungeon", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttADMN.Location = new System.Drawing.Point(1071, 565);
+            this.buttADMN.Name = "buttADMN";
+            this.buttADMN.Size = new System.Drawing.Size(121, 45);
+            this.buttADMN.TabIndex = 32;
+            this.buttADMN.Text = "ADMIN ONLY";
+            this.buttADMN.UseVisualStyleBackColor = true;
+            this.buttADMN.Click += new System.EventHandler(this.buttADMN_Click);
+            // 
             // Filloutform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -389,40 +412,42 @@
             this.BackColor = System.Drawing.Color.PapayaWhip;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1204, 622);
+            this.Controls.Add(this.buttADMN);
+            this.Controls.Add(this.txtDT);
             this.Controls.Add(this.ExitButt);
             this.Controls.Add(this.BackButt);
             this.Controls.Add(this.SubMbutt);
-            this.Controls.Add(this.EmailAButt);
+            this.Controls.Add(this.txtED);
             this.Controls.Add(this.EmailAddlabel);
-            this.Controls.Add(this.VaccYORButt);
+            this.Controls.Add(this.txtVYN);
             this.Controls.Add(this.Vacclabel);
-            this.Controls.Add(this.BrgyButt);
+            this.Controls.Add(this.txtBRG);
             this.Controls.Add(this.BrgyLabel);
-            this.Controls.Add(this.ProvButt);
+            this.Controls.Add(this.txtPRV);
             this.Controls.Add(this.ProvLabel);
-            this.Controls.Add(this.CityButt);
+            this.Controls.Add(this.txtCTY);
             this.Controls.Add(this.Citylabel);
-            this.Controls.Add(this.BirthDButt);
+            this.Controls.Add(this.txtBDY);
             this.Controls.Add(this.BirtDlabel);
-            this.Controls.Add(this.TempButt);
+            this.Controls.Add(this.txtTMP);
             this.Controls.Add(this.TemperatureLabel);
-            this.Controls.Add(this.AdressButt);
+            this.Controls.Add(this.txtADR);
             this.Controls.Add(this.Addresslabel);
-            this.Controls.Add(this.CellPButt);
+            this.Controls.Add(this.txtCN);
             this.Controls.Add(this.Cplabel);
-            this.Controls.Add(this.GendrButt);
+            this.Controls.Add(this.txtGDR);
             this.Controls.Add(this.Gnderlabel);
-            this.Controls.Add(this.AgeButt);
+            this.Controls.Add(this.txtAGE);
             this.Controls.Add(this.Genderlabel);
-            this.Controls.Add(this.LastNButt);
+            this.Controls.Add(this.txtLN);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.MiddleNButt);
+            this.Controls.Add(this.txtMN);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.FirstNbutt);
+            this.Controls.Add(this.txtFN);
             this.Controls.Add(this.FirstNameLabel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Filloutform";
-            this.Text = "Contact Tracing Fill Out Form";
+            this.Text = " ";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -432,34 +457,36 @@
 
         private Label FirstNameLabel;
         private Label label1;
-        private TextBox FirstNbutt;
-        private TextBox MiddleNButt;
+        private TextBox txtFN;
+        private TextBox txtMN;
         private Label label2;
-        private TextBox LastNButt;
+        private TextBox txtLN;
         private Label Genderlabel;
-        private TextBox AgeButt;
+        private TextBox txtAGE;
         private Label Gnderlabel;
-        private TextBox GendrButt;
+        private TextBox txtGDR;
         private Label Cplabel;
-        private TextBox CellPButt;
+        private TextBox txtCN;
         private Label Addresslabel;
-        private TextBox AdressButt;
+        private TextBox txtADR;
         private Label TemperatureLabel;
-        private TextBox TempButt;
+        private TextBox txtTMP;
         private Label BirtDlabel;
-        private TextBox BirthDButt;
+        private TextBox txtBDY;
         private Label Citylabel;
-        private TextBox CityButt;
+        private TextBox txtCTY;
         private Label ProvLabel;
-        private TextBox ProvButt;
+        private TextBox txtPRV;
         private Label BrgyLabel;
-        private TextBox BrgyButt;
+        private TextBox txtBRG;
         private Label Vacclabel;
-        private TextBox VaccYORButt;
+        private TextBox txtVYN;
         private Label EmailAddlabel;
-        private TextBox EmailAButt;
+        private TextBox txtED;
         private Button SubMbutt;
         private Button BackButt;
         private Button ExitButt;
+        private DateTimePicker txtDT;
+        private Button buttADMN;
     }
 }

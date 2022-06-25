@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.SignUpButt = new System.Windows.Forms.Button();
+            this.FillupButt = new System.Windows.Forms.Button();
             this.titlelabel = new System.Windows.Forms.Label();
             this.Title2label = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // SignUpButt
+            // FillupButt
             // 
-            this.SignUpButt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SignUpButt.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.SignUpButt.Location = new System.Drawing.Point(193, 426);
-            this.SignUpButt.Name = "SignUpButt";
-            this.SignUpButt.Size = new System.Drawing.Size(120, 46);
-            this.SignUpButt.TabIndex = 0;
-            this.SignUpButt.Text = "Sign Up";
-            this.SignUpButt.UseVisualStyleBackColor = true;
-            this.SignUpButt.Click += new System.EventHandler(this.Subbutt_Click);
+            this.FillupButt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FillupButt.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.FillupButt.Location = new System.Drawing.Point(133, 374);
+            this.FillupButt.Name = "FillupButt";
+            this.FillupButt.Size = new System.Drawing.Size(259, 46);
+            this.FillupButt.TabIndex = 0;
+            this.FillupButt.Text = "Go to Fill up form --> ";
+            this.FillupButt.UseVisualStyleBackColor = true;
+            this.FillupButt.Click += new System.EventHandler(this.Subbutt_Click);
             // 
             // titlelabel
             // 
@@ -77,7 +77,7 @@
             this.ClientSize = new System.Drawing.Size(516, 604);
             this.Controls.Add(this.Title2label);
             this.Controls.Add(this.titlelabel);
-            this.Controls.Add(this.SignUpButt);
+            this.Controls.Add(this.FillupButt);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
@@ -89,7 +89,7 @@
 
         #endregion
 
-        private Button SignUpButt;
+        private Button FillupButt;
         private Label titlelabel;
         private Label Title2label;
     }

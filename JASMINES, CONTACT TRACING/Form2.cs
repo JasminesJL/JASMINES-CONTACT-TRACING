@@ -24,38 +24,39 @@ namespace JASMINES__CONTACT_TRACING
 
         private void SubMbutt_Click(object sender, EventArgs e)
         {
-            StreamWriter doc = new StreamWriter(@"C:\Users\John Lloyd\Documents\CT app\Record.txt", true);
-            doc.WriteLine("First Name: " + FirstNbutt.Text);
-            doc.WriteLine("Middle Name: " + MiddleNButt.Text);
-            doc.WriteLine("Last Name: " + LastNButt.Text);
-            doc.WriteLine("Age: " + AgeButt.Text);
-            doc.WriteLine("Gender: " + GendrButt.Text);
-            doc.WriteLine("Address: " + AdressButt.Text);
-            doc.WriteLine("Birthdate: " + BirthDButt.Text);
-            doc.WriteLine("Cellphone Number: " + CellPButt.Text);
-            doc.WriteLine("Provinve: " + ProvButt.Text);
-            doc.WriteLine("City: " + CityButt.Text);
-            doc.WriteLine("Barangay: " + BrgyButt.Text);
-            doc.WriteLine("Vaccinated: ? Yes or No " + VaccYORButt.Text);
-            doc.WriteLine("Temperature: " + TempButt.Text);
-            doc.WriteLine("Email Adress: " + EmailAButt.Text);
+            StreamWriter doc = new StreamWriter(@"C:\Users\John Lloyd\Documents\CT app\" + txtLN.Text + ".txt", true);
+            doc.WriteLine("First Name: " + txtFN.Text);
+            doc.WriteLine("Middle Name: " + txtMN.Text);
+            doc.WriteLine("Last Name: " + txtLN.Text);
+            doc.WriteLine("Age: " + txtAGE.Text);
+            doc.WriteLine("Gender: " + txtGDR.Text);
+            doc.WriteLine("Address: " + txtADR.Text);
+            doc.WriteLine("Birthdate: " + txtBDY.Text);
+            doc.WriteLine("Cellphone Number: " + txtCN.Text);
+            doc.WriteLine("Provinve: " + txtPRV.Text);
+            doc.WriteLine("City: " + txtCTY.Text);
+            doc.WriteLine("Barangay: " + txtBRG.Text);
+            doc.WriteLine("Vaccinated: ? Yes or No " + txtVYN.Text);
+            doc.WriteLine("Temperature: " + txtTMP.Text);
+            doc.WriteLine("Email Adress: " + txtED.Text); 
             doc.Close();
 
             MessageBox.Show("Thankyou!, You are now Regitered. Stay Safe!", "Contract Tracing");
-            FirstNbutt.Text = "";
-            MiddleNButt.Text = "";
-            LastNButt.Text = "";
-            AgeButt.Text = "";
-            GendrButt.Text = "";
-            AdressButt.Text = "";
-            BirthDButt.Text = "";
-            CellPButt.Text = "";
-            ProvButt.Text = "";
-            CityButt.Text = "";
-            BrgyButt.Text = "";
-            VaccYORButt.Text = "";
-            TempButt.Text = "";
-            EmailAButt.Text = "";
+            txtFN.Text = "";
+            txtMN.Text = "";
+            txtLN.Text = "";
+            txtAGE.Text = "";
+            txtGDR.Text = "";
+            txtADR.Text = "";
+            txtBDY.Text = "";
+            txtCN.Text = "";
+            txtPRV.Text = "";
+            txtCTY.Text = "";
+            txtBRG.Text = "";
+            txtVYN.Text = "";
+            txtTMP.Text = "";
+            txtED.Text = "";
+            txtDT.Text = "";
         }
 
         private void BackButt_Click(object sender, EventArgs e)
@@ -71,6 +72,11 @@ namespace JASMINES__CONTACT_TRACING
             {
                 Application.Exit(); 
             }
+        }
+
+        private void buttADMN_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
