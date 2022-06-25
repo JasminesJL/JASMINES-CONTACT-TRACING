@@ -76,7 +76,9 @@ namespace JASMINES__CONTACT_TRACING
 
         private void buttADMN_Click(object sender, EventArgs e)
         {
-
+            var form3 = new Loginform(); 
+            form3.Show();   
+            this.Hide();    
         }
     }
 }
