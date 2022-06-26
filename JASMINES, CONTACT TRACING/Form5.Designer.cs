@@ -39,14 +39,14 @@
             this.LblSA.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.LblSA.Location = new System.Drawing.Point(14, 12);
             this.LblSA.Name = "LblSA";
-            this.LblSA.Size = new System.Drawing.Size(78, 15);
+            this.LblSA.Size = new System.Drawing.Size(0, 15);
             this.LblSA.TabIndex = 1;
-            this.LblSA.Text = "ALL DATA";
             // 
             // F5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(514, 879);
             this.Controls.Add(this.LblSA);

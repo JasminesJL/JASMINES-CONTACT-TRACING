@@ -15,7 +15,7 @@ namespace JASMINES__CONTACT_TRACING
         public F5()
         {
             InitializeComponent();
-            var txtfiles = Directory.GetFiles(@"C:\Users\John Lloyd\Documents\CT app");
+            var txtfiles = Directory.GetFiles(@"C:\Users\John Lloyd\Documents\CT app\All info");
             foreach (string file in txtfiles)
             {
                 string contents = File.ReadAllText(file);

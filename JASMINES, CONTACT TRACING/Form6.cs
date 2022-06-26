@@ -15,7 +15,7 @@ namespace JASMINES__CONTACT_TRACING
         public F6()
         {
             InitializeComponent();
-            var dateFiles = Directory.GetFiles(@"C:\Users\John Lloyd\Documents\CT app\Date");
+            var dateFiles = Directory.GetFiles(@"C:\Users\John Lloyd\Documents\CT app\Dates");
             foreach (string file in dateFiles)
             {
                 string dates = File.ReadAllText(file);

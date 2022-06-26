@@ -33,13 +33,14 @@ namespace JASMINES__CONTACT_TRACING
             List<string> dates = new List<string>();
             string Date = txtDTF.Text;
             int dateResult = 0;
-            var txtfiles = Directory.EnumerateFiles(@"C:\Users\John Lloyd\Documents\CT app");
+            var txtfiles = Directory.EnumerateFiles(@"C:\Users\John Lloyd\Documents\CT app\All info");
             foreach (string file in txtfiles)
             {
                 string contents = File.ReadAllText(file);
                 if (contents.Contains(Date))
                 {
                     dates.Add(contents);
+                    dateResult++;
                     continue;
                 }
 
@@ -50,11 +51,11 @@ namespace JASMINES__CONTACT_TRACING
             }
             else
             {
-                StreamWriter file = new StreamWriter(@"C:\Users\John Lloyd\Documents\CT app\Date" + txtDTF.Text + ".txt");
+                StreamWriter file = new StreamWriter(@"C:\Users\John Lloyd\Documents\CT app\Dates\DATE.txt");
                 foreach (string contents in dates)
                 {
                     var lastItem = dates.LastOrDefault();
-                    file.WriteLine(lastItem);
+                    file.WriteLine(contents);
                 }
                 file.Close();
                 MessageBox.Show("Found " + dateResult + "records on the selected date");
