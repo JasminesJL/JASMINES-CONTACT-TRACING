@@ -347,8 +347,7 @@
             // 
             // SubMbutt
             // 
-            this.SubMbutt.BackColor = System.Drawing.Color.Firebrick;
-            this.SubMbutt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SubMbutt.BackColor = System.Drawing.Color.Red;
             this.SubMbutt.Font = new System.Drawing.Font("Elephant", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.SubMbutt.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.SubMbutt.Location = new System.Drawing.Point(507, 530);
@@ -395,14 +394,15 @@
             // 
             // buttADMN
             // 
-            this.buttADMN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttADMN.BackColor = System.Drawing.Color.Black;
             this.buttADMN.Font = new System.Drawing.Font("Dungeon", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttADMN.ForeColor = System.Drawing.Color.White;
             this.buttADMN.Location = new System.Drawing.Point(1071, 565);
             this.buttADMN.Name = "buttADMN";
             this.buttADMN.Size = new System.Drawing.Size(121, 45);
             this.buttADMN.TabIndex = 32;
             this.buttADMN.Text = "ADMIN ONLY";
-            this.buttADMN.UseVisualStyleBackColor = true;
+            this.buttADMN.UseVisualStyleBackColor = false;
             this.buttADMN.Click += new System.EventHandler(this.buttADMN_Click);
             // 
             // F2

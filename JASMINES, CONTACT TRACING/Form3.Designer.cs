@@ -95,7 +95,6 @@
             // 
             this.buttLOGIN.BackColor = System.Drawing.Color.Black;
             this.buttLOGIN.FlatAppearance.BorderSize = 0;
-            this.buttLOGIN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttLOGIN.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.buttLOGIN.ForeColor = System.Drawing.Color.White;
             this.buttLOGIN.Location = new System.Drawing.Point(95, 426);
@@ -109,8 +108,9 @@
             // lblEXIT
             // 
             this.lblEXIT.AutoSize = true;
-            this.lblEXIT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblEXIT.BackColor = System.Drawing.Color.Red;
             this.lblEXIT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblEXIT.ForeColor = System.Drawing.Color.White;
             this.lblEXIT.Location = new System.Drawing.Point(190, 486);
             this.lblEXIT.Name = "lblEXIT";
             this.lblEXIT.Size = new System.Drawing.Size(49, 20);

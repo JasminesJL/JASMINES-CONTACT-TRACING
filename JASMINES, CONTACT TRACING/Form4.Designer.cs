@@ -49,9 +49,9 @@
             // 
             // ButtSADFC
             // 
-            this.ButtSADFC.BackColor = System.Drawing.SystemColors.Info;
-            this.ButtSADFC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ButtSADFC.BackColor = System.Drawing.Color.Red;
             this.ButtSADFC.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ButtSADFC.ForeColor = System.Drawing.Color.White;
             this.ButtSADFC.Location = new System.Drawing.Point(367, 93);
             this.ButtSADFC.Name = "ButtSADFC";
             this.ButtSADFC.Size = new System.Drawing.Size(113, 40);
@@ -81,9 +81,9 @@
             // 
             // ButtFRD
             // 
-            this.ButtFRD.BackColor = System.Drawing.SystemColors.Info;
-            this.ButtFRD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ButtFRD.BackColor = System.Drawing.Color.Red;
             this.ButtFRD.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ButtFRD.ForeColor = System.Drawing.Color.White;
             this.ButtFRD.Location = new System.Drawing.Point(359, 391);
             this.ButtFRD.Name = "ButtFRD";
             this.ButtFRD.Size = new System.Drawing.Size(113, 40);
