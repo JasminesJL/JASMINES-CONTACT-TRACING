@@ -34,6 +34,7 @@
             this.cbxDEVICE = new System.Windows.Forms.ComboBox();
             this.pbxCAM = new System.Windows.Forms.PictureBox();
             this.txtQRSCAN = new System.Windows.Forms.TextBox();
+            this.buttREAD = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbxCAM)).BeginInit();
             this.SuspendLayout();
             // 
@@ -79,11 +80,24 @@
             // 
             // txtQRSCAN
             // 
+            this.txtQRSCAN.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtQRSCAN.Location = new System.Drawing.Point(485, 110);
             this.txtQRSCAN.Multiline = true;
             this.txtQRSCAN.Name = "txtQRSCAN";
             this.txtQRSCAN.Size = new System.Drawing.Size(308, 268);
             this.txtQRSCAN.TabIndex = 4;
+            // 
+            // buttREAD
+            // 
+            this.buttREAD.BackColor = System.Drawing.Color.Red;
+            this.buttREAD.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttREAD.ForeColor = System.Drawing.Color.White;
+            this.buttREAD.Location = new System.Drawing.Point(695, 74);
+            this.buttREAD.Name = "buttREAD";
+            this.buttREAD.Size = new System.Drawing.Size(83, 30);
+            this.buttREAD.TabIndex = 5;
+            this.buttREAD.Text = "Read";
+            this.buttREAD.UseVisualStyleBackColor = false;
             // 
             // F7
             // 
@@ -91,6 +105,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(809, 417);
+            this.Controls.Add(this.buttREAD);
             this.Controls.Add(this.txtQRSCAN);
             this.Controls.Add(this.pbxCAM);
             this.Controls.Add(this.cbxDEVICE);
@@ -113,5 +128,6 @@
         private ComboBox cbxDEVICE;
         private PictureBox pbxCAM;
         private TextBox txtQRSCAN;
+        private Button buttREAD;
     }
 }

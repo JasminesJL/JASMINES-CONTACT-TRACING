@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1z1auT01G+GWIaBdOcWCKY8HLk4oYu9zL9xshBDbZLWWOyCaRnEhyvWA5ezKrAZOa1mR75Bsda+pxV1cnnp08w==",
+  "dgSpecHash": "AvcN2vF3pf5hkgIghN6EFhp7RySp85h0vcxFltmcF78mqjBKxbXF998quFLPwsZa3CISNNgRdffZeXDAsIqNSg==",
   "success": true,
-  "projectFilePath": "E:\\PROGRAMMING\\JASMINES, CONTACT TRACING\\JASMINES, CONTACT TRACING\\JASMINES, CONTACT TRACING.csproj",
+  "projectFilePath": "E:\\PROGRAMMING\\JASMINES, CONTACT TRACINGC\\JASMINES, CONTACT TRACING\\JASMINES, CONTACT TRACING.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\John Lloyd\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\John Lloyd\\.nuget\\packages\\qrcoder\\1.4.3\\qrcoder.1.4.3.nupkg.sha512",
