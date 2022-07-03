@@ -127,7 +127,7 @@
             // 
             this.LblQC.AutoSize = true;
             this.LblQC.BackColor = System.Drawing.Color.Transparent;
-            this.LblQC.Font = new System.Drawing.Font("Cooper Black", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.LblQC.Font = new System.Drawing.Font("Cooper Black", 12.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.LblQC.Location = new System.Drawing.Point(538, 30);
             this.LblQC.Name = "LblQC";
             this.LblQC.Size = new System.Drawing.Size(77, 20);
