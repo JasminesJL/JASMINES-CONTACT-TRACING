@@ -531,11 +531,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\PROGRAMMING\\JASMINES, CONTACT TRACING\\JASMINES, CONTACT TRACING\\JASMINES, CONTACT TRACING.csproj",
+      "projectUniqueName": "E:\\PROGRAMMING\\JASMINES, CONTACT TRACING FINAL\\JASMINES, CONTACT TRACING\\JASMINES, CONTACT TRACING.csproj",
       "projectName": "JASMINES, CONTACT TRACING",
-      "projectPath": "E:\\PROGRAMMING\\JASMINES, CONTACT TRACING\\JASMINES, CONTACT TRACING\\JASMINES, CONTACT TRACING.csproj",
+      "projectPath": "E:\\PROGRAMMING\\JASMINES, CONTACT TRACING FINAL\\JASMINES, CONTACT TRACING\\JASMINES, CONTACT TRACING.csproj",
       "packagesPath": "C:\\Users\\John Lloyd\\.nuget\\packages\\",
-      "outputPath": "E:\\PROGRAMMING\\JASMINES, CONTACT TRACING\\JASMINES, CONTACT TRACING\\obj\\",
+      "outputPath": "E:\\PROGRAMMING\\JASMINES, CONTACT TRACING FINAL\\JASMINES, CONTACT TRACING\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\Programs\\visualStudioTools\\VirtualStudioSharedComponents\\NuGetPackages"

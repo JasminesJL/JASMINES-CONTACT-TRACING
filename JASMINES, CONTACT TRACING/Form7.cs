@@ -65,8 +65,16 @@ namespace JASMINES__CONTACT_TRACING
                 Result result = barcodeReader.Decode((Bitmap)pbxCAM.Image);
                 if (result != null)
                 {
-                    txtQRSCAN.Text = result.ToString();
-                    timer1.Stop();  
+                    txtQRSCAN.Text = result.ToString(); 
+                    timer1.Stop();
+                    string infoGathered = result.ToString();
+                    StringBuilder sb = new StringBuilder(infoGathered);
+                    infoGathered = sb.ToString();
+                    string infoShown = infoGathered;
+                    StreamWriter write = new StreamWriter(@"C:\Users\John Lloyd\Documents\CT app\List\QR Records.txt", true);
+                    write.WriteLine();
+                    write.Close();
+                    MessageBox.Show("Save in the Qr code folder");
                     if (captureDevice.IsRunning)
                         captureDevice.Stop();
                 }
