@@ -39,12 +39,15 @@
             // 
             // buttSTART
             // 
-            this.buttSTART.Location = new System.Drawing.Point(485, 60);
+            this.buttSTART.BackColor = System.Drawing.Color.Red;
+            this.buttSTART.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttSTART.ForeColor = System.Drawing.Color.White;
+            this.buttSTART.Location = new System.Drawing.Point(485, 74);
             this.buttSTART.Name = "buttSTART";
-            this.buttSTART.Size = new System.Drawing.Size(75, 23);
+            this.buttSTART.Size = new System.Drawing.Size(83, 30);
             this.buttSTART.TabIndex = 0;
             this.buttSTART.Text = "&Start";
-            this.buttSTART.UseVisualStyleBackColor = true;
+            this.buttSTART.UseVisualStyleBackColor = false;
             // 
             // LblCAM
             // 
@@ -76,7 +79,7 @@
             // 
             // txtQRSCAN
             // 
-            this.txtQRSCAN.Location = new System.Drawing.Point(485, 89);
+            this.txtQRSCAN.Location = new System.Drawing.Point(485, 110);
             this.txtQRSCAN.Multiline = true;
             this.txtQRSCAN.Name = "txtQRSCAN";
             this.txtQRSCAN.Size = new System.Drawing.Size(308, 268);
@@ -86,12 +89,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(809, 417);
             this.Controls.Add(this.txtQRSCAN);
             this.Controls.Add(this.pbxCAM);
             this.Controls.Add(this.cbxDEVICE);
             this.Controls.Add(this.LblCAM);
             this.Controls.Add(this.buttSTART);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "F7";
             this.Text = "QR CODE SCANNER";
