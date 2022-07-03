@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QRCoder;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -70,6 +71,26 @@ namespace JASMINES__CONTACT_TRACING
             F7 SCAN = new F7();   
             SCAN.ShowDialog();
             this.Hide();    
+        }
+
+        private void ButtGENERATE_Click(object sender, EventArgs e)
+        {
+            QRCodeGenerator qRCodeGenerator = new QRCodeGenerator();
+            QRCodeData data = qRCodeGenerator.CreateQrCode(txtQRCODE.Text, QRCodeGenerator.ECCLevel.Q);
+            QRCode code = new QRCode(data);
+            PBqr.Image = code.GetGraphic(5);
+        }
+
+        private void ButtSQR_Click(object sender, EventArgs e)
+        {
+            string initialDIR = @"C:\Users\John Lloyd\OneDrive\Pictures\Image\QrSaves";
+            var dialog = new SaveFileDialog();   
+            dialog.InitialDirectory = initialDIR;
+            dialog.Filter = "PNG|*.png|JPEG|*.jpg";
+            if (dialog.ShowDialog() == DialogResult.OK)
+            {
+                PBqr.Image.Save(dialog.FileName);   
+            }
         }
     }
 }

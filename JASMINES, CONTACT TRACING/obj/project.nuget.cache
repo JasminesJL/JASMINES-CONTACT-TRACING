@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "KMPldXha89x/rtxsgnYF9FwvZnlv/zbz8Ylqmc2KC1qoI4qNKweMifvJ+eVqrvQp2pixR8k7wKnJNmEhY2eieQ==",
+  "dgSpecHash": "1z1auT01G+GWIaBdOcWCKY8HLk4oYu9zL9xshBDbZLWWOyCaRnEhyvWA5ezKrAZOa1mR75Bsda+pxV1cnnp08w==",
   "success": true,
   "projectFilePath": "E:\\PROGRAMMING\\JASMINES, CONTACT TRACING\\JASMINES, CONTACT TRACING\\JASMINES, CONTACT TRACING.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\John Lloyd\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\John Lloyd\\.nuget\\packages\\qrcoder\\1.4.3\\qrcoder.1.4.3.nupkg.sha512",
+    "C:\\Users\\John Lloyd\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

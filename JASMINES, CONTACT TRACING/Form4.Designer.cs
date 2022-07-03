@@ -39,6 +39,7 @@
             this.LblQC = new System.Windows.Forms.Label();
             this.PBqr = new System.Windows.Forms.PictureBox();
             this.txtQRCODE = new System.Windows.Forms.TextBox();
+            this.ButtSQR = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.PBqr)).BeginInit();
             this.SuspendLayout();
             // 
@@ -114,19 +115,20 @@
             // 
             this.ButtGENERATE.BackColor = System.Drawing.Color.Red;
             this.ButtGENERATE.ForeColor = System.Drawing.Color.White;
-            this.ButtGENERATE.Location = new System.Drawing.Point(642, 384);
+            this.ButtGENERATE.Location = new System.Drawing.Point(538, 384);
             this.ButtGENERATE.Name = "ButtGENERATE";
             this.ButtGENERATE.Size = new System.Drawing.Size(102, 36);
             this.ButtGENERATE.TabIndex = 8;
             this.ButtGENERATE.Text = "GENERATE";
             this.ButtGENERATE.UseVisualStyleBackColor = false;
+            this.ButtGENERATE.Click += new System.EventHandler(this.ButtGENERATE_Click);
             // 
             // LblQC
             // 
             this.LblQC.AutoSize = true;
             this.LblQC.BackColor = System.Drawing.Color.Transparent;
             this.LblQC.Font = new System.Drawing.Font("Cooper Black", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LblQC.Location = new System.Drawing.Point(538, 15);
+            this.LblQC.Location = new System.Drawing.Point(538, 30);
             this.LblQC.Name = "LblQC";
             this.LblQC.Size = new System.Drawing.Size(77, 20);
             this.LblQC.TabIndex = 9;
@@ -135,20 +137,32 @@
             // PBqr
             // 
             this.PBqr.BackColor = System.Drawing.Color.White;
-            this.PBqr.Location = new System.Drawing.Point(538, 48);
+            this.PBqr.Location = new System.Drawing.Point(538, 62);
             this.PBqr.Name = "PBqr";
-            this.PBqr.Size = new System.Drawing.Size(312, 238);
+            this.PBqr.Size = new System.Drawing.Size(259, 224);
             this.PBqr.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.PBqr.TabIndex = 10;
             this.PBqr.TabStop = false;
             // 
             // txtQRCODE
             // 
-            this.txtQRCODE.Location = new System.Drawing.Point(538, 292);
+            this.txtQRCODE.Location = new System.Drawing.Point(538, 299);
             this.txtQRCODE.Multiline = true;
             this.txtQRCODE.Name = "txtQRCODE";
-            this.txtQRCODE.Size = new System.Drawing.Size(312, 76);
+            this.txtQRCODE.Size = new System.Drawing.Size(259, 62);
             this.txtQRCODE.TabIndex = 11;
+            // 
+            // ButtSQR
+            // 
+            this.ButtSQR.BackColor = System.Drawing.Color.Black;
+            this.ButtSQR.ForeColor = System.Drawing.Color.White;
+            this.ButtSQR.Location = new System.Drawing.Point(695, 384);
+            this.ButtSQR.Name = "ButtSQR";
+            this.ButtSQR.Size = new System.Drawing.Size(102, 36);
+            this.ButtSQR.TabIndex = 12;
+            this.ButtSQR.Text = "Save QR";
+            this.ButtSQR.UseVisualStyleBackColor = false;
+            this.ButtSQR.Click += new System.EventHandler(this.ButtSQR_Click);
             // 
             // F4
             // 
@@ -156,6 +170,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(874, 506);
+            this.Controls.Add(this.ButtSQR);
             this.Controls.Add(this.txtQRCODE);
             this.Controls.Add(this.PBqr);
             this.Controls.Add(this.LblQC);
@@ -187,5 +202,6 @@
         private Label LblQC;
         private PictureBox PBqr;
         private TextBox txtQRCODE;
+        private Button ButtSQR;
     }
 }
