@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F2));
             this.FirstNameLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtFN = new System.Windows.Forms.TextBox();
@@ -364,7 +363,7 @@
             this.BackButt.Font = new System.Drawing.Font("Dungeon", 15.75F);
             this.BackButt.Location = new System.Drawing.Point(9, 490);
             this.BackButt.Name = "BackButt";
-            this.BackButt.Size = new System.Drawing.Size(75, 39);
+            this.BackButt.Size = new System.Drawing.Size(86, 39);
             this.BackButt.TabIndex = 29;
             this.BackButt.Text = "Back";
             this.BackButt.UseVisualStyleBackColor = true;
@@ -389,7 +388,7 @@
             this.txtDT.Font = new System.Drawing.Font("Cooper Black", 9F);
             this.txtDT.Location = new System.Drawing.Point(10, 21);
             this.txtDT.Name = "txtDT";
-            this.txtDT.Size = new System.Drawing.Size(207, 21);
+            this.txtDT.Size = new System.Drawing.Size(227, 21);
             this.txtDT.TabIndex = 31;
             // 
             // buttADMN

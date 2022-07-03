@@ -58,7 +58,7 @@
             this.ButtSADFC.BackColor = System.Drawing.Color.Red;
             this.ButtSADFC.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold);
             this.ButtSADFC.ForeColor = System.Drawing.Color.White;
-            this.ButtSADFC.Location = new System.Drawing.Point(96, 42);
+            this.ButtSADFC.Location = new System.Drawing.Point(116, 54);
             this.ButtSADFC.Name = "ButtSADFC";
             this.ButtSADFC.Size = new System.Drawing.Size(97, 35);
             this.ButtSADFC.TabIndex = 2;
@@ -71,7 +71,7 @@
             this.lblFRBD.AutoSize = true;
             this.lblFRBD.BackColor = System.Drawing.Color.Transparent;
             this.lblFRBD.Font = new System.Drawing.Font("Cooper Black", 18F);
-            this.lblFRBD.Location = new System.Drawing.Point(30, 253);
+            this.lblFRBD.Location = new System.Drawing.Point(30, 251);
             this.lblFRBD.Name = "lblFRBD";
             this.lblFRBD.Size = new System.Drawing.Size(276, 27);
             this.lblFRBD.TabIndex = 3;
@@ -80,9 +80,9 @@
             // txtDTF
             // 
             this.txtDTF.Font = new System.Drawing.Font("Segoe UI", 11.25F);
-            this.txtDTF.Location = new System.Drawing.Point(45, 296);
+            this.txtDTF.Location = new System.Drawing.Point(32, 300);
             this.txtDTF.Name = "txtDTF";
-            this.txtDTF.Size = new System.Drawing.Size(202, 27);
+            this.txtDTF.Size = new System.Drawing.Size(274, 27);
             this.txtDTF.TabIndex = 5;
             // 
             // ButtFRD
@@ -90,7 +90,7 @@
             this.ButtFRD.BackColor = System.Drawing.Color.Red;
             this.ButtFRD.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold);
             this.ButtFRD.ForeColor = System.Drawing.Color.White;
-            this.ButtFRD.Location = new System.Drawing.Point(96, 333);
+            this.ButtFRD.Location = new System.Drawing.Point(116, 344);
             this.ButtFRD.Name = "ButtFRD";
             this.ButtFRD.Size = new System.Drawing.Size(97, 35);
             this.ButtFRD.TabIndex = 6;
@@ -126,7 +126,7 @@
             // 
             this.LblQC.AutoSize = true;
             this.LblQC.BackColor = System.Drawing.Color.Transparent;
-            this.LblQC.Font = new System.Drawing.Font("Cooper Black", 12.75F);
+            this.LblQC.Font = new System.Drawing.Font("Cooper Black", 12.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblQC.Location = new System.Drawing.Point(461, 26);
             this.LblQC.Name = "LblQC";
             this.LblQC.Size = new System.Drawing.Size(77, 20);

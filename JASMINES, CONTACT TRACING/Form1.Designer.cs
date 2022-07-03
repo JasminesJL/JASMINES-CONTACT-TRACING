@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F1));
             this.FillupButt = new System.Windows.Forms.Button();
             this.titlelabel = new System.Windows.Forms.Label();
             this.Title2label = new System.Windows.Forms.Label();
@@ -37,12 +36,11 @@
             // FillupButt
             // 
             this.FillupButt.BackColor = System.Drawing.Color.Red;
-            this.FillupButt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.FillupButt.Font = new System.Drawing.Font("Impact", 21.75F);
             this.FillupButt.ForeColor = System.Drawing.Color.White;
-            this.FillupButt.Location = new System.Drawing.Point(114, 324);
+            this.FillupButt.Location = new System.Drawing.Point(90, 316);
             this.FillupButt.Name = "FillupButt";
-            this.FillupButt.Size = new System.Drawing.Size(235, 46);
+            this.FillupButt.Size = new System.Drawing.Size(277, 55);
             this.FillupButt.TabIndex = 0;
             this.FillupButt.Text = "Go to Fill up form --> ";
             this.FillupButt.UseVisualStyleBackColor = false;

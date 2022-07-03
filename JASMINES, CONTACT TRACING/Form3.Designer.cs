@@ -74,7 +74,7 @@
             this.buttLOGIN.ForeColor = System.Drawing.Color.White;
             this.buttLOGIN.Location = new System.Drawing.Point(81, 369);
             this.buttLOGIN.Name = "buttLOGIN";
-            this.buttLOGIN.Size = new System.Drawing.Size(207, 29);
+            this.buttLOGIN.Size = new System.Drawing.Size(208, 34);
             this.buttLOGIN.TabIndex = 3;
             this.buttLOGIN.Text = "LOG IN";
             this.buttLOGIN.UseVisualStyleBackColor = false;
