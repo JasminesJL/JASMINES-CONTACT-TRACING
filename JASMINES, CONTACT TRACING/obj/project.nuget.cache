@@ -1,12 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "AvcN2vF3pf5hkgIghN6EFhp7RySp85h0vcxFltmcF78mqjBKxbXF998quFLPwsZa3CISNNgRdffZeXDAsIqNSg==",
+  "dgSpecHash": "cVdBFxYQvUJ13EP6QPnjpQFywGjTcoQJn4eY8IWF+m8d15XFoemqxQ43Zf3RLJlj7eJgiU6I/Hr9HT+uuakpGA==",
   "success": true,
-  "projectFilePath": "E:\\PROGRAMMING\\JASMINES, CONTACT TRACINGC\\JASMINES, CONTACT TRACING\\JASMINES, CONTACT TRACING.csproj",
+  "projectFilePath": "E:\\PROGRAMMING\\JASMINES, CONTACT TRACING\\JASMINES, CONTACT TRACING\\JASMINES, CONTACT TRACING.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\John Lloyd\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\John Lloyd\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
+    "C:\\Users\\John Lloyd\\.nuget\\packages\\aforge.video\\2.2.5\\aforge.video.2.2.5.nupkg.sha512",
+    "C:\\Users\\John Lloyd\\.nuget\\packages\\aforge.video.directshow\\2.2.5\\aforge.video.directshow.2.2.5.nupkg.sha512",
+    "C:\\Users\\John Lloyd\\.nuget\\packages\\microsoft.bcl\\1.1.10\\microsoft.bcl.1.1.10.nupkg.sha512",
+    "C:\\Users\\John Lloyd\\.nuget\\packages\\microsoft.bcl.build\\1.0.14\\microsoft.bcl.build.1.0.14.nupkg.sha512",
+    "C:\\Users\\John Lloyd\\.nuget\\packages\\microsoft.net.http\\2.2.29\\microsoft.net.http.2.2.29.nupkg.sha512",
     "C:\\Users\\John Lloyd\\.nuget\\packages\\qrcoder\\1.4.3\\qrcoder.1.4.3.nupkg.sha512",
-    "C:\\Users\\John Lloyd\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+    "C:\\Users\\John Lloyd\\.nuget\\packages\\zxing.net\\0.16.8\\zxing.net.0.16.8.nupkg.sha512"
   ],
   "logs": []
 }

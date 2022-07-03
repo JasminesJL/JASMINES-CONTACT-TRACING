@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F4));
             this.LblSA = new System.Windows.Forms.Label();
             this.ButtSADFC = new System.Windows.Forms.Button();
             this.lblFRBD = new System.Windows.Forms.Label();
@@ -47,8 +46,8 @@
             // 
             this.LblSA.AutoSize = true;
             this.LblSA.BackColor = System.Drawing.Color.Transparent;
-            this.LblSA.Font = new System.Drawing.Font("Cooper Black", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LblSA.Location = new System.Drawing.Point(12, 9);
+            this.LblSA.Font = new System.Drawing.Font("Cooper Black", 18F);
+            this.LblSA.Location = new System.Drawing.Point(10, 8);
             this.LblSA.Name = "LblSA";
             this.LblSA.Size = new System.Drawing.Size(357, 27);
             this.LblSA.TabIndex = 0;
@@ -57,11 +56,11 @@
             // ButtSADFC
             // 
             this.ButtSADFC.BackColor = System.Drawing.Color.Red;
-            this.ButtSADFC.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ButtSADFC.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold);
             this.ButtSADFC.ForeColor = System.Drawing.Color.White;
-            this.ButtSADFC.Location = new System.Drawing.Point(112, 48);
+            this.ButtSADFC.Location = new System.Drawing.Point(96, 42);
             this.ButtSADFC.Name = "ButtSADFC";
-            this.ButtSADFC.Size = new System.Drawing.Size(113, 40);
+            this.ButtSADFC.Size = new System.Drawing.Size(97, 35);
             this.ButtSADFC.TabIndex = 2;
             this.ButtSADFC.Text = "Proceed";
             this.ButtSADFC.UseVisualStyleBackColor = false;
@@ -71,8 +70,8 @@
             // 
             this.lblFRBD.AutoSize = true;
             this.lblFRBD.BackColor = System.Drawing.Color.Transparent;
-            this.lblFRBD.Font = new System.Drawing.Font("Cooper Black", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblFRBD.Location = new System.Drawing.Point(35, 292);
+            this.lblFRBD.Font = new System.Drawing.Font("Cooper Black", 18F);
+            this.lblFRBD.Location = new System.Drawing.Point(30, 253);
             this.lblFRBD.Name = "lblFRBD";
             this.lblFRBD.Size = new System.Drawing.Size(276, 27);
             this.lblFRBD.TabIndex = 3;
@@ -80,20 +79,20 @@
             // 
             // txtDTF
             // 
-            this.txtDTF.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtDTF.Location = new System.Drawing.Point(53, 341);
+            this.txtDTF.Font = new System.Drawing.Font("Segoe UI", 11.25F);
+            this.txtDTF.Location = new System.Drawing.Point(45, 296);
             this.txtDTF.Name = "txtDTF";
-            this.txtDTF.Size = new System.Drawing.Size(235, 27);
+            this.txtDTF.Size = new System.Drawing.Size(202, 27);
             this.txtDTF.TabIndex = 5;
             // 
             // ButtFRD
             // 
             this.ButtFRD.BackColor = System.Drawing.Color.Red;
-            this.ButtFRD.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ButtFRD.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold);
             this.ButtFRD.ForeColor = System.Drawing.Color.White;
-            this.ButtFRD.Location = new System.Drawing.Point(112, 384);
+            this.ButtFRD.Location = new System.Drawing.Point(96, 333);
             this.ButtFRD.Name = "ButtFRD";
-            this.ButtFRD.Size = new System.Drawing.Size(113, 40);
+            this.ButtFRD.Size = new System.Drawing.Size(97, 35);
             this.ButtFRD.TabIndex = 6;
             this.ButtFRD.Text = "Proceed";
             this.ButtFRD.UseVisualStyleBackColor = false;
@@ -103,9 +102,9 @@
             // 
             this.ButtSCANQR.BackColor = System.Drawing.Color.Black;
             this.ButtSCANQR.ForeColor = System.Drawing.Color.White;
-            this.ButtSCANQR.Location = new System.Drawing.Point(767, 446);
+            this.ButtSCANQR.Location = new System.Drawing.Point(657, 387);
             this.ButtSCANQR.Name = "ButtSCANQR";
-            this.ButtSCANQR.Size = new System.Drawing.Size(95, 48);
+            this.ButtSCANQR.Size = new System.Drawing.Size(81, 42);
             this.ButtSCANQR.TabIndex = 7;
             this.ButtSCANQR.Text = "Scan QR Code";
             this.ButtSCANQR.UseVisualStyleBackColor = false;
@@ -115,9 +114,9 @@
             // 
             this.ButtGENERATE.BackColor = System.Drawing.Color.Red;
             this.ButtGENERATE.ForeColor = System.Drawing.Color.White;
-            this.ButtGENERATE.Location = new System.Drawing.Point(538, 384);
+            this.ButtGENERATE.Location = new System.Drawing.Point(461, 333);
             this.ButtGENERATE.Name = "ButtGENERATE";
-            this.ButtGENERATE.Size = new System.Drawing.Size(102, 36);
+            this.ButtGENERATE.Size = new System.Drawing.Size(87, 31);
             this.ButtGENERATE.TabIndex = 8;
             this.ButtGENERATE.Text = "GENERATE";
             this.ButtGENERATE.UseVisualStyleBackColor = false;
@@ -127,8 +126,8 @@
             // 
             this.LblQC.AutoSize = true;
             this.LblQC.BackColor = System.Drawing.Color.Transparent;
-            this.LblQC.Font = new System.Drawing.Font("Cooper Black", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LblQC.Location = new System.Drawing.Point(538, 30);
+            this.LblQC.Font = new System.Drawing.Font("Cooper Black", 12.75F);
+            this.LblQC.Location = new System.Drawing.Point(461, 26);
             this.LblQC.Name = "LblQC";
             this.LblQC.Size = new System.Drawing.Size(77, 20);
             this.LblQC.TabIndex = 9;
@@ -137,28 +136,28 @@
             // PBqr
             // 
             this.PBqr.BackColor = System.Drawing.Color.White;
-            this.PBqr.Location = new System.Drawing.Point(538, 62);
+            this.PBqr.Location = new System.Drawing.Point(461, 54);
             this.PBqr.Name = "PBqr";
-            this.PBqr.Size = new System.Drawing.Size(259, 224);
+            this.PBqr.Size = new System.Drawing.Size(222, 194);
             this.PBqr.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.PBqr.TabIndex = 10;
             this.PBqr.TabStop = false;
             // 
             // txtQRCODE
             // 
-            this.txtQRCODE.Location = new System.Drawing.Point(538, 299);
+            this.txtQRCODE.Location = new System.Drawing.Point(461, 259);
             this.txtQRCODE.Multiline = true;
             this.txtQRCODE.Name = "txtQRCODE";
-            this.txtQRCODE.Size = new System.Drawing.Size(259, 62);
+            this.txtQRCODE.Size = new System.Drawing.Size(223, 54);
             this.txtQRCODE.TabIndex = 11;
             // 
             // ButtSQR
             // 
             this.ButtSQR.BackColor = System.Drawing.Color.Black;
             this.ButtSQR.ForeColor = System.Drawing.Color.White;
-            this.ButtSQR.Location = new System.Drawing.Point(695, 384);
+            this.ButtSQR.Location = new System.Drawing.Point(596, 333);
             this.ButtSQR.Name = "ButtSQR";
-            this.ButtSQR.Size = new System.Drawing.Size(102, 36);
+            this.ButtSQR.Size = new System.Drawing.Size(87, 31);
             this.ButtSQR.TabIndex = 12;
             this.ButtSQR.Text = "Save QR";
             this.ButtSQR.UseVisualStyleBackColor = false;
@@ -166,10 +165,10 @@
             // 
             // F4
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(874, 506);
+            this.BackColor = System.Drawing.Color.PapayaWhip;
+            this.ClientSize = new System.Drawing.Size(749, 439);
             this.Controls.Add(this.ButtSQR);
             this.Controls.Add(this.txtQRCODE);
             this.Controls.Add(this.PBqr);
@@ -181,7 +180,6 @@
             this.Controls.Add(this.lblFRBD);
             this.Controls.Add(this.ButtSADFC);
             this.Controls.Add(this.LblSA);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "F4";
             this.Text = "ADMIN ONLY";
             ((System.ComponentModel.ISupportInitialize)(this.PBqr)).EndInit();

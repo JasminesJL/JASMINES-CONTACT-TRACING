@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F5));
             this.LblSA = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -36,7 +35,7 @@
             // 
             this.LblSA.AutoSize = true;
             this.LblSA.BackColor = System.Drawing.Color.Transparent;
-            this.LblSA.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.LblSA.Font = new System.Drawing.Font("Cooper Black", 9.75F);
             this.LblSA.Location = new System.Drawing.Point(14, 12);
             this.LblSA.Name = "LblSA";
             this.LblSA.Size = new System.Drawing.Size(0, 15);
@@ -47,11 +46,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.Color.PapayaWhip;
             this.ClientSize = new System.Drawing.Size(516, 653);
             this.Controls.Add(this.LblSA);
-            this.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "F5";
             this.Text = "All Gathered Info";

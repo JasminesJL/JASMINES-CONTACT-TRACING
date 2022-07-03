@@ -22,11 +22,11 @@ namespace JASMINES__CONTACT_TRACING
 
         }
 
-        private void buttLOGIN_Click(object sender, EventArgs e)
+        private void ButtLOGIN_Click(object sender, EventArgs e)
         {
             if (txtUN.Text == "AdminJL" && txtPW.Text == "0402")
             {
-                F4 info = new F4();   
+                F4 info = new();   
                 info.ShowDialog();
             }
             
@@ -39,7 +39,7 @@ namespace JASMINES__CONTACT_TRACING
             }
         }
 
-        private void lblEXIT_Click(object sender, EventArgs e)
+        private void LblEXIT_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }

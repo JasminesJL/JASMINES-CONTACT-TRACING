@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F6));
             this.lblFRBD = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -36,21 +35,20 @@
             // 
             this.lblFRBD.AutoSize = true;
             this.lblFRBD.BackColor = System.Drawing.Color.Transparent;
-            this.lblFRBD.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblFRBD.Location = new System.Drawing.Point(12, 9);
+            this.lblFRBD.Font = new System.Drawing.Font("Cooper Black", 9.75F);
+            this.lblFRBD.Location = new System.Drawing.Point(10, 8);
             this.lblFRBD.Name = "lblFRBD";
             this.lblFRBD.Size = new System.Drawing.Size(0, 15);
             this.lblFRBD.TabIndex = 4;
             // 
             // F6
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(515, 656);
+            this.BackColor = System.Drawing.Color.PapayaWhip;
+            this.ClientSize = new System.Drawing.Size(441, 569);
             this.Controls.Add(this.lblFRBD);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "F6";
             this.Text = "Record by Dates";
             this.Load += new System.EventHandler(this.F6_Load);

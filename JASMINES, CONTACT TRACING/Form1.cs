@@ -12,8 +12,11 @@ namespace JASMINES__CONTACT_TRACING
             var Form2 = new F2();
             Form2.Show();
             this.Hide();
-        } 
-          
-        
+        }
+
+        private void F1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
