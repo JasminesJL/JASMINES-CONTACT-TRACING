@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace JASMINES__CONTACT_TRACING
 {
-    public partial class Form7 : Form
+    public partial class F7 : Form
     {
-        public Form7()
+        public F7()
         {
             InitializeComponent();
         }

@@ -34,6 +34,7 @@
             this.lblFRBD = new System.Windows.Forms.Label();
             this.txtDTF = new System.Windows.Forms.DateTimePicker();
             this.ButtFRD = new System.Windows.Forms.Button();
+            this.ButtSCANQR = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LblSA
@@ -92,12 +93,25 @@
             this.ButtFRD.UseVisualStyleBackColor = false;
             this.ButtFRD.Click += new System.EventHandler(this.ButtFRD_Click);
             // 
+            // ButtSCANQR
+            // 
+            this.ButtSCANQR.BackColor = System.Drawing.Color.Black;
+            this.ButtSCANQR.ForeColor = System.Drawing.Color.White;
+            this.ButtSCANQR.Location = new System.Drawing.Point(767, 446);
+            this.ButtSCANQR.Name = "ButtSCANQR";
+            this.ButtSCANQR.Size = new System.Drawing.Size(95, 48);
+            this.ButtSCANQR.TabIndex = 7;
+            this.ButtSCANQR.Text = "Scan QR Code";
+            this.ButtSCANQR.UseVisualStyleBackColor = false;
+            this.ButtSCANQR.Click += new System.EventHandler(this.ButtQR_Click);
+            // 
             // F4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(874, 506);
+            this.Controls.Add(this.ButtSCANQR);
             this.Controls.Add(this.ButtFRD);
             this.Controls.Add(this.txtDTF);
             this.Controls.Add(this.lblFRBD);
@@ -118,5 +132,6 @@
         private Label lblFRBD;
         private DateTimePicker txtDTF;
         private Button ButtFRD;
+        private Button ButtSCANQR;
     }
 }

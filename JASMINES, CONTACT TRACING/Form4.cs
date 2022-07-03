@@ -64,5 +64,12 @@ namespace JASMINES__CONTACT_TRACING
                 date.ShowDialog();  
             }
         }
+
+        private void ButtQR_Click(object sender, EventArgs e)
+        {
+            F7 SCAN = new F7();   
+            SCAN.ShowDialog();
+            this.Hide();    
+        }
     }
 }
